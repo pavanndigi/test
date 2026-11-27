@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "01_simple_text.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/01_simple_text.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 3,
+          "lines": [
+            {
+              "font": "Helvetica",
+              "line": 1,
+              "rect": [
+                72.0,
+                61.2,
+                187.39,
+                75.0
+              ],
+              "size": 12.0,
+              "text": "Simple text test page."
+            },
+            {
+              "font": "Helvetica",
+              "line": 2,
+              "rect": [
+                72.0,
+                79.2,
+                262.76,
+                93.0
+              ],
+              "size": 12.0,
+              "text": "Second line of plain Helvetica 12 pt."
+            },
+            {
+              "font": "Helvetica",
+              "line": 3,
+              "rect": [
+                72.0,
+                97.2,
+                181.38,
+                111.0
+              ],
+              "size": 12.0,
+              "text": "Third line ends here."
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 1,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Simple text test page.\nSecond line of plain Helvetica 12 pt.\nThird line ends here.",
+              "font": "Helvetica",
+              "lines": [
+                1,
+                2,
+                3
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                61.2,
+                262.76,
+                111.0
+              ],
+              "rows": [
+                [
+                  1
+                ],
+                [
+                  2
+                ],
+                [
+                  3
+                ]
+              ],
+              "size": 12.0,
+              "text": "Simple text test page. Second line of plain Helvetica 12 pt. Third line ends here."
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5029,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Helvetica",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "01_simple_text.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/01_simple_text.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1057,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

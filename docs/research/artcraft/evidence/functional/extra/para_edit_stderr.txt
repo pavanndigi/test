@@ -1,0 +1,1 @@
+pdfcraft-cli: step 5 (text_edit): this text needs PdfCraft's Japanese fallback font, which this build doesn't include (official releases do; to build it in, set CRAFT_FONTS_DIR to a craft-fonts checkout)

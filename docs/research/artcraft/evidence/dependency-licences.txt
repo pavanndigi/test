@@ -1,0 +1,153 @@
+Dependency licence census — 2026-11-28
+Method: cargo tree --locked -e normal,build --prefix none --format '{p}|{l}', deduplicated by package+version.
+Licences are the SPDX expressions declared in each crate's Cargo.toml (Observed). This is NOT a file-level audit:
+bundled C sources (aws-lc-sys), fonts, CMaps and model files carry their own terms (see ATTRIBUTION.toml / NOTICE).
+Grep note: a naive 'MPL' grep matches 'thiserror-impl'; the counts below match the licence field only.
+
+== pdfcraft-cli (pdfcraft c34c6c5a): 476 unique packages
+   copyleft (MPL/GPL/LGPL/AGPL/EPL/CC-BY-SA) in licence field: 0
+   empty licence field: 0
+       262 MIT OR Apache-2.0
+        70 Apache-2.0 OR MIT
+        47 MIT
+        31 Unicode-3.0
+        12 Unlicense OR MIT
+        12 MIT/Apache-2.0
+         9 BSD-3-Clause
+         4 MIT OR Apache-2.0 OR Zlib
+         3 Zlib OR Apache-2.0 OR MIT
+         3 BSD-3-Clause OR Apache-2.0
+         2 Zlib
+         2 MIT OR Zlib OR Apache-2.0
+         2 BSD-3-Clause/MIT
+         2 BSD-3-Clause OR MIT OR Apache-2.0
+         2 BSD-2-Clause OR Apache-2.0 OR MIT
+         2 Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
+         2 Apache-2.0
+         1 ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0)
+         1 ISC AND (Apache-2.0 OR ISC)
+         1 CC0-1.0 OR MIT-0 OR Apache-2.0
+         1 BSD-3-Clause AND MIT
+         1 Apache-2.0 OR BSL-1.0
+         1 0BSD OR MIT OR Apache-2.0
+         1 (MIT OR Apache-2.0) AND Unicode-3.0
+         1 (MIT OR Apache-2.0) AND IJG
+         1 (Apache-2.0 OR MIT) AND BSD-3-Clause
+
+== wordcraft-cli (wordcraft 72ca96a2): 330 unique packages
+   copyleft (MPL/GPL/LGPL/AGPL/EPL/CC-BY-SA) in licence field: 0
+   empty licence field: 0
+       194 MIT OR Apache-2.0
+        29 Unicode-3.0
+        25 Apache-2.0 OR MIT
+        22 MIT
+         9 Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
+         8 BSD-3-Clause
+         7 MIT/Apache-2.0
+         4 MIT OR Apache-2.0 OR Zlib
+         3 Zlib OR Apache-2.0 OR MIT
+         3 Unlicense OR MIT
+         3 ISC
+         3 Apache-2.0
+         2 Zlib
+         2 MIT OR Zlib OR Apache-2.0
+         2 BSD-3-Clause/MIT
+         2 BSD-3-Clause OR Apache-2.0
+         2 BSD-2-Clause OR Apache-2.0 OR MIT
+         2 (MIT OR Apache-2.0) AND Unicode-3.0
+         1 CDLA-Permissive-2.0
+         1 BSD-2-Clause
+         1 Apache-2.0 OR ISC OR MIT
+         1 Apache-2.0 OR BSL-1.0
+         1 Apache-2.0 AND ISC
+         1 0BSD OR MIT OR Apache-2.0
+         1 (MIT OR Apache-2.0) AND IJG
+         1 (Apache-2.0 OR MIT) AND BSD-3-Clause
+
+== craft-docx (craft-libs 0b8bbaf4): 66 unique packages
+   copyleft (MPL/GPL/LGPL/AGPL/EPL/CC-BY-SA) in licence field: 0
+   empty licence field: 0
+        50 MIT OR Apache-2.0
+         8 Apache-2.0 OR MIT
+         4 MIT
+         1 Unlicense OR MIT
+         1 MIT OR Zlib OR Apache-2.0
+         1 0BSD OR MIT OR Apache-2.0
+         1 (MIT OR Apache-2.0) AND Unicode-3.0
+
+== craft-pdf (craft-libs 0b8bbaf4): 8 unique packages
+   copyleft (MPL/GPL/LGPL/AGPL/EPL/CC-BY-SA) in licence field: 0
+   empty licence field: 0
+         7 MIT OR Apache-2.0
+         1 (MIT OR Apache-2.0) AND Unicode-3.0
+
+== craft-metafile (craft-libs 0b8bbaf4): 46 unique packages
+   copyleft (MPL/GPL/LGPL/AGPL/EPL/CC-BY-SA) in licence field: 0
+   empty licence field: 0
+        24 MIT OR Apache-2.0
+         4 MIT
+         3 Apache-2.0 OR MIT
+         2 MIT/Apache-2.0
+         2 MIT OR Zlib OR Apache-2.0
+         2 MIT OR Apache-2.0 OR Zlib
+         2 BSD-3-Clause OR Apache-2.0
+         2 BSD-2-Clause OR Apache-2.0 OR MIT
+         1 Zlib OR Apache-2.0 OR MIT
+         1 Unlicense OR MIT
+         1 0BSD OR MIT OR Apache-2.0
+         1 (MIT OR Apache-2.0) AND Unicode-3.0
+         1 (Apache-2.0 OR MIT) AND BSD-3-Clause
+
+== Non-MIT/Apache conditions in the pdfcraft-cli graph (need NOTICE / attribution handling)
+   alloc-no-stdlib v2.0.4|BSD-3-Clause
+   alloc-no-stdlib v3.0.0|BSD-3-Clause
+   alloc-stdlib v0.2.4|BSD-3-Clause
+   alloc-stdlib v0.3.0|BSD-3-Clause
+   brotli v8.0.4|BSD-3-Clause AND MIT
+   brotli-decompressor v5.0.3|BSD-3-Clause/MIT
+   brotli-decompressor v6.3.2|BSD-3-Clause/MIT
+   curve25519-dalek v5.0.0|BSD-3-Clause
+   ed25519-dalek v3.0.0|BSD-3-Clause
+   exr v1.74.3|BSD-3-Clause
+   fixed_decimal v0.7.3|Unicode-3.0
+   foldhash v0.2.0|Zlib
+   icu_calendar v2.3.0|Unicode-3.0
+   icu_collections v2.3.0|Unicode-3.0
+   icu_datetime v2.3.0|Unicode-3.0
+   icu_decimal v2.3.0|Unicode-3.0
+   icu_locale_core v2.3.0|Unicode-3.0
+   icu_locale_fallback v2.3.0|Unicode-3.0
+   icu_locale_fallback_data v2.3.0|Unicode-3.0
+   icu_normalizer v2.3.0|Unicode-3.0
+   icu_normalizer_data v2.3.0|Unicode-3.0
+   icu_pattern v0.5.0|Unicode-3.0
+   icu_plurals v2.3.0|Unicode-3.0
+   icu_properties v2.3.0|Unicode-3.0
+   icu_properties_data v2.3.0|Unicode-3.0
+   icu_provider v2.3.1|Unicode-3.0
+   icu_provider_adapters v2.3.0|Unicode-3.0
+   icu_provider_blob v2.3.0|Unicode-3.0
+   icu_segmenter v2.3.0|Unicode-3.0
+   icu_segmenter_data v2.3.0|Unicode-3.0
+   icu_time v2.3.0|Unicode-3.0
+   lebe v0.5.3|BSD-3-Clause
+   litemap v0.8.3|Unicode-3.0
+   potential_utf v0.1.6|Unicode-3.0
+   subtle v2.6.1|BSD-3-Clause
+   tinystr v0.8.4|Unicode-3.0
+   writeable v0.6.4|Unicode-3.0
+   yoke v0.8.3|Unicode-3.0
+   yoke-derive v0.8.4 (proc-macro)|Unicode-3.0
+   zerofrom v0.1.8|Unicode-3.0
+   zerofrom-derive v0.1.8 (proc-macro)|Unicode-3.0
+   zerotrie v0.2.5|Unicode-3.0
+   zerovec v0.11.8|Unicode-3.0
+   zerovec-derive v0.11.6 (proc-macro)|Unicode-3.0
+   zlib-rs v0.6.8|Zlib
+
+== craft-libs workspace: MPL-2.0 package
+   acadrust v0.6.6 (MPL-2.0) <- craft-dwg only (cargo tree -i acadrust). Not in craft-docx, craft-pdf, craft-metafile, pdfcraft-cli or wordcraft-cli graphs.
+
+== Non-code assets (from ATTRIBUTION.toml, Observed)
+   ocrs text-detection/recognition models: CC-BY-SA-4.0; fetched by 'cargo xtask models', not in source build (ocr_status: ocrs unavailable).
+   Bundled fonts: OFL-1.1 (e.g. Inter fallback used by text_edit). Adobe CMaps / Foxit fonts: BSD-3-Clause.

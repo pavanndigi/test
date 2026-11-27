@@ -1,0 +1,472 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "available": true,
+          "engines": [
+            {
+              "available": false,
+              "id": "ocrs",
+              "unavailable": "the text recognition models are not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them)"
+            },
+            {
+              "available": true,
+              "id": "tesseract",
+              "path": "/usr/local/bin/tesseract",
+              "version": "tesseract 5.3.4"
+            }
+          ],
+          "languages": [
+            {
+              "code": "en",
+              "name": "English"
+            }
+          ],
+          "search_dirs": [
+            "/home/claude/artcraft-build/pdfcraft-target/debug/models",
+            "/home/claude/artcraft-build/pdfcraft-target/debug/../Resources/models",
+            "/home/claude/artcraft-build/pdfcraft-target/debug/../share/pdfcraft/models",
+            "/home/claude/artcraft-src/pdfcraft/crates/ocr/../../assets/models"
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "ocr_status"
+    },
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "12_scanned.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/ocr/12_scanned.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "pages": [
+            {
+              "already_on_page": 0,
+              "mean_confidence": 95.80000305175781,
+              "page": 1,
+              "words": [
+                {
+                  "band": "high",
+                  "box": [
+                    68.40206146240234,
+                    76.5555419921875,
+                    77.13141632080078,
+                    12.27960205078125
+                  ],
+                  "confidence": 96.19999694824219,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "SCANNED"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    150.6620635986328,
+                    74.87908935546875,
+                    122.93803405761719,
+                    12.87921142578125
+                  ],
+                  "confidence": 95.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "MEMORANDUM"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    67.26763916015625,
+                    100.57208251953125,
+                    21.009201049804688,
+                    11.30511474609375
+                  ],
+                  "confidence": 96.0999984741211,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "To:"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    93.64212799072266,
+                    99.75958251953125,
+                    20.056175231933594,
+                    11.77227783203125
+                  ],
+                  "confidence": 95.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "All"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    118.82376098632812,
+                    99.2667236328125,
+                    32.52708435058594,
+                    11.93548583984375
+                  ],
+                  "confidence": 96.5,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "staff"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    68.76187896728516,
+                    122.61639404296875,
+                    57.98307800292969,
+                    14.9063720703125
+                  ],
+                  "confidence": 96.5,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "Subject:"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    133.27484130859375,
+                    121.9822998046875,
+                    41.87712097167969,
+                    11.81805419921875
+                  ],
+                  "confidence": 96.5,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "Office"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    180.28054809570312,
+                    120.9556884765625,
+                    73.29423522949219,
+                    12.22930908203125
+                  ],
+                  "confidence": 96.0,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "relocation"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    68.10396575927734,
+                    146.06036376953125,
+                    26.771286010742188,
+                    11.860107421875
+                  ],
+                  "confidence": 96.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "The"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    100.96000671386719,
+                    145.4764404296875,
+                    38.52272033691406,
+                    12.013916015625
+                  ],
+                  "confidence": 96.5,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "office"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    145.1349334716797,
+                    148.40191650390625,
+                    45.66722106933594,
+                    8.27093505859375
+                  ],
+                  "confidence": 94.9000015258789,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "moves"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    196.18942260742188,
+                    145.99554443359375,
+                    13.558914184570312,
+                    10.00860595703125
+                  ],
+                  "confidence": 94.9000015258789,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "to"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    215.11361694335938,
+                    143.453369140625,
+                    60.624298095703125,
+                    15.1806640625
+                  ],
+                  "confidence": 93.30000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "Building"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    281.3116149902344,
+                    143.7352294921875,
+                    9.49761962890625,
+                    11.1544189453125
+                  ],
+                  "confidence": 93.19999694824219,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "C"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    296.70440673828125,
+                    146.7913818359375,
+                    17.128021240234375,
+                    7.8973388671875
+                  ],
+                  "confidence": 95.0999984741211,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "on"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    320.1632995605469,
+                    143.14813232421875,
+                    15.49322509765625,
+                    11.23291015625
+                  ],
+                  "confidence": 95.0999984741211,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "12"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    341.9811096191406,
+                    141.9244384765625,
+                    50.513946533203125,
+                    12.1708984375
+                  ],
+                  "confidence": 96.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "March."
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    69.12483215332031,
+                    168.82293701171875,
+                    45.95729064941406,
+                    12.111328125
+                  ],
+                  "confidence": 96.69999694824219,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "Please"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    120.4474105834961,
+                    168.29864501953125,
+                    34.72003936767578,
+                    14.60186767578125
+                  ],
+                  "confidence": 96.69999694824219,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "pack"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    159.58912658691406,
+                    171.64306640625,
+                    33.230865478515625,
+                    10.74566650390625
+                  ],
+                  "confidence": 96.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "your"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    197.43125915527344,
+                    167.30670166015625,
+                    33.48326110839844,
+                    11.70806884765625
+                  ],
+                  "confidence": 95.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "desk"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    235.56346130371094,
+                    167.01776123046875,
+                    17.452621459960938,
+                    14.37579345703125
+                  ],
+                  "confidence": 95.80000305175781,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "by"
+                },
+                {
+                  "band": "high",
+                  "box": [
+                    258.1038818359375,
+                    166.08416748046875,
+                    47.910430908203125,
+                    14.7744140625
+                  ],
+                  "confidence": 95.69999694824219,
+                  "source": "tesseract",
+                  "suspect": false,
+                  "text": "Friday."
+                }
+              ]
+            }
+          ],
+          "suspects": 0,
+          "words": 23
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "ocr_words"
+    },
+    {
+      "result": [
+        {
+          "pages": [
+            {
+              "already_on_page": 0,
+              "page": 1,
+              "text": "SCANNED MEMORANDUM To: All staff Subject: Office relocation The office moves to Building C on 12 March. Please pack your desk by Friday.",
+              "words": 23
+            }
+          ],
+          "words": 23
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "ocr_recognize"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1329858,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "12_searchable.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/ocr/12_searchable.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Recognize text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/ocr/12_searchable.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_save"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1532158,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/ocr/12_searchable.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 2,
+          "editable": true,
+          "encrypted": false,
+          "name": "12_scanned.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/ocr/12_scanned.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "out": "/home/claude/artcraft-research/reports/evidence/functional/ocr/12_editable.pdf",
+          "pages": [
+            {
+              "already_on_page": 0,
+              "page": 1,
+              "text": "SCANNED MEMORANDUM To: All staff Subject: Office relocation The office moves to Building C on 12 March. Please pack your desk by Friday.",
+              "words": 23
+            }
+          ],
+          "words": 23
+        }
+      ],
+      "status": "ok",
+      "step": 8,
+      "tool": "ocr_recognize"
+    }
+  ]
+}

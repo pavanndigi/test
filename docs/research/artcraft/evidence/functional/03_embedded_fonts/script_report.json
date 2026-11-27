@@ -1,0 +1,222 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "03_embedded_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/03_embedded_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 3,
+          "lines": [
+            {
+              "font": "AAAAAA+DejaVuSans",
+              "line": 1,
+              "rect": [
+                72.0,
+                70.12,
+                376.05,
+                83.12
+              ],
+              "size": 13.0,
+              "text": "Embedded DejaVu Sans: café, naïve, Œuvre, €"
+            },
+            {
+              "font": "AAAAAA+DejaVuSerif-Bold",
+              "line": 2,
+              "rect": [
+                72.0,
+                96.6,
+                388.52,
+                111.6
+              ],
+              "size": 15.0,
+              "text": "Embedded DejaVu Serif Bold heading"
+            },
+            {
+              "font": "AAAAAA+LiberationSansNarrow-Italic",
+              "line": 3,
+              "rect": [
+                72.0,
+                127.26,
+                248.13,
+                138.53
+              ],
+              "size": 12.0,
+              "text": "Embedded Liberation Sans Narrow Italic"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 3,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Embedded DejaVu Sans: café, naïve, Œuvre, €",
+              "font": "AAAAAA+DejaVuSans",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                70.12,
+                376.05,
+                83.12
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 13.0,
+              "text": "Embedded DejaVu Sans: café, naïve, Œuvre, €"
+            },
+            {
+              "editor_text": "Embedded DejaVu Serif Bold heading",
+              "font": "AAAAAA+DejaVuSerif-Bold",
+              "lines": [
+                2
+              ],
+              "paragraph": 2,
+              "rect": [
+                72.0,
+                96.6,
+                388.52,
+                111.6
+              ],
+              "rows": [
+                [
+                  2
+                ]
+              ],
+              "size": 15.0,
+              "text": "Embedded DejaVu Serif Bold heading"
+            },
+            {
+              "editor_text": "Embedded Liberation Sans Narrow Italic",
+              "font": "AAAAAA+LiberationSansNarrow-Italic",
+              "lines": [
+                3
+              ],
+              "paragraph": 3,
+              "rect": [
+                72.0,
+                127.26,
+                248.13,
+                138.53
+              ],
+              "rows": [
+                [
+                  3
+                ]
+              ],
+              "size": 12.0,
+              "text": "Embedded Liberation Sans Narrow Italic"
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5103,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "AAAAAA+DejaVuSans",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "03_embedded_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/03_embedded_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 61513,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

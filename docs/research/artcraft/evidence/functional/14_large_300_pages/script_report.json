@@ -1,0 +1,893 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "14_large_300_pages.pdf",
+          "pages": 300,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/14_large_300_pages.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 46,
+          "lines": [
+            {
+              "font": "Helvetica-Bold",
+              "line": 1,
+              "rect": [
+                72.0,
+                59.4,
+                134.24,
+                75.5
+              ],
+              "size": 14.0,
+              "text": "Section 1"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 2,
+              "rect": [
+                72.0,
+                90.1,
+                458.78,
+                102.75
+              ],
+              "size": 11.0,
+              "text": "1.1 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 3,
+              "rect": [
+                72.0,
+                105.1,
+                458.78,
+                117.75
+              ],
+              "size": 11.0,
+              "text": "1.2 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 4,
+              "rect": [
+                72.0,
+                120.1,
+                458.78,
+                132.75
+              ],
+              "size": 11.0,
+              "text": "1.3 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 5,
+              "rect": [
+                72.0,
+                135.1,
+                458.78,
+                147.75
+              ],
+              "size": 11.0,
+              "text": "1.4 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 6,
+              "rect": [
+                72.0,
+                150.1,
+                458.78,
+                162.75
+              ],
+              "size": 11.0,
+              "text": "1.5 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 7,
+              "rect": [
+                72.0,
+                165.1,
+                458.78,
+                177.75
+              ],
+              "size": 11.0,
+              "text": "1.6 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 8,
+              "rect": [
+                72.0,
+                180.1,
+                458.78,
+                192.75
+              ],
+              "size": 11.0,
+              "text": "1.7 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 9,
+              "rect": [
+                72.0,
+                195.1,
+                458.78,
+                207.75
+              ],
+              "size": 11.0,
+              "text": "1.8 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 10,
+              "rect": [
+                72.0,
+                210.1,
+                458.78,
+                222.75
+              ],
+              "size": 11.0,
+              "text": "1.9 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 11,
+              "rect": [
+                72.0,
+                225.1,
+                464.28,
+                237.75
+              ],
+              "size": 11.0,
+              "text": "1.10 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 12,
+              "rect": [
+                72.0,
+                240.1,
+                464.28,
+                252.75
+              ],
+              "size": 11.0,
+              "text": "1.11 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 13,
+              "rect": [
+                72.0,
+                255.1,
+                464.28,
+                267.75
+              ],
+              "size": 11.0,
+              "text": "1.12 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 14,
+              "rect": [
+                72.0,
+                270.1,
+                464.28,
+                282.75
+              ],
+              "size": 11.0,
+              "text": "1.13 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 15,
+              "rect": [
+                72.0,
+                285.1,
+                464.28,
+                297.75
+              ],
+              "size": 11.0,
+              "text": "1.14 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 16,
+              "rect": [
+                72.0,
+                300.1,
+                464.28,
+                312.75
+              ],
+              "size": 11.0,
+              "text": "1.15 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 17,
+              "rect": [
+                72.0,
+                315.1,
+                464.28,
+                327.75
+              ],
+              "size": 11.0,
+              "text": "1.16 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 18,
+              "rect": [
+                72.0,
+                330.1,
+                464.28,
+                342.75
+              ],
+              "size": 11.0,
+              "text": "1.17 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 19,
+              "rect": [
+                72.0,
+                345.1,
+                464.28,
+                357.75
+              ],
+              "size": 11.0,
+              "text": "1.18 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 20,
+              "rect": [
+                72.0,
+                360.1,
+                464.28,
+                372.75
+              ],
+              "size": 11.0,
+              "text": "1.19 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 21,
+              "rect": [
+                72.0,
+                375.1,
+                464.28,
+                387.75
+              ],
+              "size": 11.0,
+              "text": "1.20 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 22,
+              "rect": [
+                72.0,
+                390.1,
+                464.28,
+                402.75
+              ],
+              "size": 11.0,
+              "text": "1.21 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 23,
+              "rect": [
+                72.0,
+                405.1,
+                464.28,
+                417.75
+              ],
+              "size": 11.0,
+              "text": "1.22 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 24,
+              "rect": [
+                72.0,
+                420.1,
+                464.28,
+                432.75
+              ],
+              "size": 11.0,
+              "text": "1.23 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 25,
+              "rect": [
+                72.0,
+                435.1,
+                464.28,
+                447.75
+              ],
+              "size": 11.0,
+              "text": "1.24 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 26,
+              "rect": [
+                72.0,
+                450.1,
+                464.28,
+                462.75
+              ],
+              "size": 11.0,
+              "text": "1.25 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 27,
+              "rect": [
+                72.0,
+                465.1,
+                464.28,
+                477.75
+              ],
+              "size": 11.0,
+              "text": "1.26 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 28,
+              "rect": [
+                72.0,
+                480.1,
+                464.28,
+                492.75
+              ],
+              "size": 11.0,
+              "text": "1.27 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 29,
+              "rect": [
+                72.0,
+                495.1,
+                464.28,
+                507.75
+              ],
+              "size": 11.0,
+              "text": "1.28 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 30,
+              "rect": [
+                72.0,
+                510.1,
+                464.28,
+                522.75
+              ],
+              "size": 11.0,
+              "text": "1.29 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 31,
+              "rect": [
+                72.0,
+                525.1,
+                464.28,
+                537.75
+              ],
+              "size": 11.0,
+              "text": "1.30 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 32,
+              "rect": [
+                72.0,
+                540.1,
+                464.28,
+                552.75
+              ],
+              "size": 11.0,
+              "text": "1.31 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 33,
+              "rect": [
+                72.0,
+                555.1,
+                464.28,
+                567.75
+              ],
+              "size": 11.0,
+              "text": "1.32 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 34,
+              "rect": [
+                72.0,
+                570.1,
+                464.28,
+                582.75
+              ],
+              "size": 11.0,
+              "text": "1.33 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 35,
+              "rect": [
+                72.0,
+                585.1,
+                464.28,
+                597.75
+              ],
+              "size": 11.0,
+              "text": "1.34 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 36,
+              "rect": [
+                72.0,
+                600.1,
+                464.28,
+                612.75
+              ],
+              "size": 11.0,
+              "text": "1.35 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 37,
+              "rect": [
+                72.0,
+                615.1,
+                464.28,
+                627.75
+              ],
+              "size": 11.0,
+              "text": "1.36 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 38,
+              "rect": [
+                72.0,
+                630.1,
+                464.28,
+                642.75
+              ],
+              "size": 11.0,
+              "text": "1.37 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 39,
+              "rect": [
+                72.0,
+                645.1,
+                464.28,
+                657.75
+              ],
+              "size": 11.0,
+              "text": "1.38 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 40,
+              "rect": [
+                72.0,
+                660.1,
+                464.28,
+                672.75
+              ],
+              "size": 11.0,
+              "text": "1.39 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 41,
+              "rect": [
+                72.0,
+                675.1,
+                464.28,
+                687.75
+              ],
+              "size": 11.0,
+              "text": "1.40 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 42,
+              "rect": [
+                72.0,
+                690.1,
+                464.28,
+                702.75
+              ],
+              "size": 11.0,
+              "text": "1.41 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 43,
+              "rect": [
+                72.0,
+                705.1,
+                464.28,
+                717.75
+              ],
+              "size": 11.0,
+              "text": "1.42 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 44,
+              "rect": [
+                72.0,
+                720.1,
+                464.28,
+                732.75
+              ],
+              "size": 11.0,
+              "text": "1.43 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 45,
+              "rect": [
+                72.0,
+                735.1,
+                464.28,
+                747.75
+              ],
+              "size": 11.0,
+              "text": "1.44 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 46,
+              "rect": [
+                72.0,
+                750.1,
+                464.28,
+                762.75
+              ],
+              "size": 11.0,
+              "text": "1.45 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 2,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Section 1",
+              "font": "Helvetica-Bold",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                59.4,
+                134.24,
+                75.5
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 14.0,
+              "text": "Section 1"
+            },
+            {
+              "editor_text": "1.1 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.2 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.3 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.4 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.5 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.6 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.7 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.8 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.9 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.10 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.11 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.12 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.13 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.14 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.15 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.16 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.17 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.18 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.19 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.20 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.21 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.22 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.23 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.24 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.25 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.26 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.27 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.28 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.29 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.30 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.31 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.32 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.33 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.34 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.35 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.36 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.37 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.38 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.39 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.40 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.41 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.42 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.43 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.44 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.45 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp",
+              "font": "Times-Roman",
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "paragraph": 2,
+              "rect": [
+                72.0,
+                90.1,
+                464.28,
+                762.75
+              ],
+              "rows": [
+                [
+                  2
+                ],
+                [
+                  3
+                ],
+                [
+                  4
+                ],
+                [
+                  5
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ],
+                [
+                  8
+                ],
+                [
+                  9
+                ],
+                [
+                  10
+                ],
+                [
+                  11
+                ],
+                [
+                  12
+                ],
+                [
+                  13
+                ],
+                [
+                  14
+                ],
+                [
+                  15
+                ],
+                [
+                  16
+                ],
+                [
+                  17
+                ],
+                [
+                  18
+                ],
+                [
+                  19
+                ],
+                [
+                  20
+                ],
+                [
+                  21
+                ],
+                [
+                  22
+                ],
+                [
+                  23
+                ],
+                [
+                  24
+                ],
+                [
+                  25
+                ],
+                [
+                  26
+                ],
+                [
+                  27
+                ],
+                [
+                  28
+                ],
+                [
+                  29
+                ],
+                [
+                  30
+                ],
+                [
+                  31
+                ],
+                [
+                  32
+                ],
+                [
+                  33
+                ],
+                [
+                  34
+                ],
+                [
+                  35
+                ],
+                [
+                  36
+                ],
+                [
+                  37
+                ],
+                [
+                  38
+                ],
+                [
+                  39
+                ],
+                [
+                  40
+                ],
+                [
+                  41
+                ],
+                [
+                  42
+                ],
+                [
+                  43
+                ],
+                [
+                  44
+                ],
+                [
+                  45
+                ],
+                [
+                  46
+                ]
+              ],
+              "size": 11.0,
+              "text": "1.1 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.2 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.3 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.4 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.5 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.6 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.7 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.8 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.9 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.10 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.11 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.12 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.13 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.14 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.15 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.16 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.17 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.18 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.19 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.20 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.21 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.22 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.23 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.24 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.25 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.26 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.27 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.28 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.29 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.30 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.31 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.32 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.33 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.34 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.35 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.36 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.37 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.38 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.39 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.40 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.41 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.42 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.43 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.44 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp 1.45 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp"
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 48108,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Helvetica-Bold",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "14_large_300_pages.pdf",
+          "pages": 300,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/14_large_300_pages.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 195298,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 300,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

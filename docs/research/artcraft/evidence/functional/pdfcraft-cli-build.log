@@ -1,0 +1,892 @@
+    Updating git repository `https://github.com/storytold/egui.git`
+    Updating git repository `https://github.com/storytold/craft-libs`
+    Updating git repository `https://github.com/storytold/winit.git`
+    Updating crates.io index
+    Updating git repository `https://github.com/storytold/winprint.rs`
+    Updating git repository `https://github.com/storytold/winprint.rs`
+    Updating git repository `https://github.com/storytold/winprint.rs`
+    Updating git repository `https://github.com/storytold/vectorcraft.git`
+warning: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=f5025284445ea19c35f746d96fc0b75468b3f560#f5025284)` was not used in the crate graph
+warning: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=f5025284445ea19c35f746d96fc0b75468b3f560#f5025284)` was not used in the crate graph
+warning: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=f5025284445ea19c35f746d96fc0b75468b3f560#f5025284)` was not used in the crate graph
+warning: patch `krilla v0.8.2 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)` was not used in the crate graph
+help: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+ Downloading crates ...
+  Downloaded small_btree v0.1.0
+  Downloaded sha1 v0.11.0
+  Downloaded siphasher v1.0.4
+  Downloaded serde_repr v0.1.21
+  Downloaded write16 v1.0.0
+  Downloaded signal-hook-registry v1.4.8
+  Downloaded simd-adler32 v0.3.10
+  Downloaded spki v0.8.0
+  Downloaded accesskit v0.25.1
+  Downloaded rten-simd v0.26.0
+  Downloaded serde_derive v1.0.229
+  Downloaded serde v1.0.229
+  Downloaded serde_core v1.0.229
+  Downloaded zbus_macros v5.19.0
+  Downloaded rten-tensor v0.26.0
+  Downloaded ryu-js v1.0.3
+  Downloaded serde_json v1.0.154
+  Downloaded skrifa v0.42.1
+  Downloaded sha3 v0.12.0
+  Downloaded sponge-cursor v0.1.0
+  Downloaded tap v1.0.1
+  Downloaded thiserror-impl v2.0.21
+  Downloaded rten-onnx v0.26.0
+  Downloaded rustix v1.1.6
+  Downloaded skrifa v0.44.0
+  Downloaded strum v0.28.0
+  Downloaded target-features v0.1.6
+  Downloaded tempfile v3.27.0
+  Downloaded tiff v0.11.3
+  Downloaded url v2.5.9
+  Downloaded uuid v1.26.1
+  Downloaded web-time v1.1.0
+  Downloaded zbus_names v4.3.4
+  Downloaded rten-parallel v0.26.0
+  Downloaded rustc_version v0.4.1
+  Downloaded rustversion v1.0.23
+  Downloaded scopeguard v1.2.0
+  Downloaded sec1 v0.8.1
+  Downloaded serdect v0.4.3
+  Downloaded simdutf8 v0.1.5
+  Downloaded static_assertions v1.1.0
+  Downloaded shlex v2.0.1
+  Downloaded slab v0.4.12
+  Downloaded thiserror v2.0.21
+  Downloaded time-macros v0.2.32
+  Downloaded unicode-segmentation v1.13.3
+  Downloaded wnaf v0.14.1
+  Downloaded rten-vecmath v0.26.0
+  Downloaded semver v1.0.28
+  Downloaded serde_spanned v1.1.1
+  Downloaded sha2 v0.10.9
+  Downloaded smallvec v1.16.2
+  Downloaded stringprep v0.1.5
+  Downloaded thread-priority v3.1.1
+  Downloaded utf8_iter v1.0.4
+  Downloaded weezl v0.2.1
+  Downloaded yoke v0.8.3
+  Downloaded rustc-hash v2.1.3
+  Downloaded signature v3.0.0
+  Downloaded strum_macros v0.28.0
+  Downloaded tracing-attributes v0.1.31
+  Downloaded winresource v0.1.34
+  Downloaded zbus v5.19.0
+  Downloaded weezl v0.1.12
+  Downloaded version_check v0.9.5
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded tag_ptr v0.1.0
+  Downloaded toml v1.1.6+spec-1.1.0
+  Downloaded typeid v1.0.3
+  Downloaded utf16_iter v1.0.5
+  Downloaded writeable v0.6.4
+  Downloaded rten-shape-inference v0.26.0
+  Downloaded unicode-bidi v0.3.18
+  Downloaded toml_parser v1.1.3+spec-1.1.0
+  Downloaded tracing v0.1.44
+  Downloaded typed-path v0.13.0
+  Downloaded vello_common v0.0.9
+  Downloaded winnow v1.0.4
+  Downloaded digest v0.11.3
+  Downloaded sha2 v0.11.1
+  Downloaded time v0.3.55
+  Downloaded errno v0.3.14
+  Downloaded euclid v0.22.14
+  Downloaded flate2 v1.1.10
+  Downloaded futures-core v0.3.34
+  Downloaded futures-io v0.3.34
+  Downloaded futures-lite v2.6.1
+  Downloaded hex v0.4.3
+  Downloaded icu_collections v2.3.0
+  Downloaded skrifa v0.47.0
+  Downloaded subtle v2.6.1
+  Downloaded synstructure v0.14.0
+  Downloaded thin-vec v0.2.20
+  Downloaded crossbeam-deque v0.8.8
+  Downloaded time-core v0.1.9
+  Downloaded endi v1.1.1
+  Downloaded hashbrown v0.14.5
+  Downloaded toml_edit v0.25.15+spec-1.1.0
+  Downloaded untrusted v0.7.1
+  Downloaded crypto-common v0.1.7
+  Downloaded crossbeam-epoch v0.9.21
+  Downloaded zcheapstr v1.1.0
+  Downloaded cpufeatures v0.3.1
+  Downloaded crossbeam-utils v0.8.23
+  Downloaded harfrust v0.13.3
+  Downloaded icu_locale_fallback_data v2.3.0
+  Downloaded crc32fast v1.5.2
+  Downloaded toml_datetime v1.1.1+spec-1.1.0
+  Downloaded unicode-properties v0.1.4
+  Downloaded icu_locale_fallback v2.3.0
+  Downloaded icu_normalizer v2.3.0
+  Downloaded icu_normalizer_data v2.3.0
+  Downloaded icu_time v2.3.0
+  Downloaded lock_api v0.4.14
+  Downloaded once_cell v1.21.4
+  Downloaded sys-locale v0.3.2
+  Downloaded tracing-core v0.1.36
+  Downloaded typenum v1.20.1
+  Downloaded crypto-bigint v0.7.11
+  Downloaded dashmap v6.2.1
+  Downloaded ed25519 v3.0.0
+  Downloaded fast-float2 v0.2.4
+  Downloaded fastrand v2.5.0
+  Downloaded getrandom v0.4.3
+  Downloaded icu_pattern v0.5.0
+  Downloaded yoke-derive v0.8.4
+  Downloaded der v0.8.2
+  Downloaded flatbuffers v24.12.23
+  Downloaded toml_writer v1.1.2+spec-1.1.0
+  Downloaded crypto-common v0.2.2
+  Downloaded dynify-macros v0.1.2
+  Downloaded enumflags2_derive v0.7.12
+  Downloaded fixed_decimal v0.7.3
+  Downloaded group v0.14.0
+  Downloaded miniz_oxide v0.9.1
+  Downloaded icu_provider_blob v2.3.0
+  Downloaded either v1.18.0
+  Downloaded fs_extra v1.3.0
+  Downloaded guillotiere v0.7.0
+  Downloaded nom v8.0.0
+  Downloaded deranged v0.5.8
+  Downloaded equator-macro v0.4.2
+  Downloaded ordered-stream v0.2.0
+  Downloaded proc-macro-crate v3.5.0
+  Downloaded syn v2.0.119
+  Downloaded tinystr v0.8.4
+  Downloaded tinyvec v1.13.3
+  Downloaded unicode-ident v1.0.26
+  Downloaded unicode-normalization v0.1.25
+  Downloaded litemap v0.8.3
+  Downloaded memchr v2.8.3
+  Downloaded form_urlencoded v1.2.3
+  Downloaded dunce v1.0.5
+  Downloaded encoding_rs v0.8.42
+  Downloaded futures-concurrency v7.7.1
+  Downloaded log v0.4.34
+  Downloaded md-5 v0.11.0
+  Downloaded miniz_oxide v0.8.9
+  Downloaded p256 v0.14.0
+  Downloaded qoi v0.4.1
+  Downloaded syn v3.0.6
+  Downloaded elliptic-curve v0.14.1
+  Downloaded fixedbitset v0.5.7
+  Downloaded generic-array v0.14.7
+  Downloaded icu_properties v2.3.0
+  Downloaded icu_provider_adapters v2.3.0
+  Downloaded itoa v1.0.18
+  Downloaded moxcms v0.8.1
+  Downloaded ed25519-dalek v3.0.0
+  Downloaded curve25519-dalek v5.0.0
+  Downloaded displaydoc v0.2.7
+  Downloaded fax v0.2.7
+  Downloaded icu_properties_data v2.3.0
+  Downloaded multiversion_no_op v1.0.0
+  Downloaded crypto-primes v0.7.2
+  Downloaded equivalent v1.0.2
+  Downloaded ocrs v0.13.1
+  Downloaded quick-error v2.0.1
+  Downloaded rfc6979 v0.6.0
+  Downloaded zvariant_derive v5.15.0
+  Downloaded digest v0.10.7
+  Downloaded exr v1.74.3
+  Downloaded kurbo v0.13.1
+  Downloaded linebender_resource_handle v0.1.1
+  Downloaded idna v1.1.0
+  Downloaded zune-jpeg v0.5.15
+  Downloaded md-5 v0.10.6
+  Downloaded parking v2.2.1
+  Downloaded primeorder v0.14.0
+  Downloaded async-broadcast v0.7.2
+  Downloaded equator v0.4.2
+  Downloaded fdeflate v0.3.7
+  Downloaded foldhash v0.2.0
+  Downloaded gif v0.14.2
+  Downloaded harfrust v0.12.0
+  Downloaded hayro-ccitt v0.3.0
+  Downloaded hmac v0.13.0
+  Downloaded icu_locale_core v2.3.0
+  Downloaded icu_provider v2.3.1
+  Downloaded multiversion v0.8.1
+  Downloaded ctutils v0.4.8
+  Downloaded async-executor v1.14.1
+  Downloaded zvariant v5.15.0
+  Downloaded bytemuck_derive v1.12.1
+  Downloaded getrandom v0.3.4
+  Downloaded hayro-jpeg2000 v0.3.5
+  Downloaded jpeg-encoder v0.6.1
+  Downloaded idna_adapter v1.2.2
+  Downloaded regress v0.12.0
+  Downloaded zune-inflate v0.2.54
+  Downloaded anyhow v1.0.104
+  Downloaded p384 v0.14.0
+  Downloaded libm v0.2.16
+  Downloaded dynify v0.1.2
+  Downloaded enumflags2 v0.7.12
+  Downloaded heck v0.5.0
+  Downloaded cbc v0.2.1
+  Downloaded libc v0.2.189
+  Downloaded boa_string v0.22.0
+  Downloaded oneshot v0.2.1
+  Downloaded regex-automata v0.4.18
+  Downloaded fearless_simd v0.4.1
+  Downloaded image-webp v0.2.4
+  Downloaded byteorder-lite v0.1.0
+  Downloaded intrusive-collections v0.10.3
+  Downloaded jobserver v0.1.35
+  Downloaded p521 v0.14.0
+  Downloaded boa_interner v0.22.0
+  Downloaded bytemuck v1.25.2
+  Downloaded font-types v0.12.5
+  Downloaded icu_datetime v2.3.0
+  Downloaded multiversion-macros v0.8.1
+  Downloaded zerotrie v0.2.5
+  Downloaded ecdsa v0.17.0
+  Downloaded event-listener-strategy v0.5.4
+  Downloaded proc-macro2 v1.0.107
+  Downloaded regex v1.13.1
+  Downloaded zune-jpegxl v0.5.2
+  Downloaded des v0.9.0
+  Downloaded half v2.7.1
+  Downloaded itertools v0.15.0
+  Downloaded keccak v0.2.2
+  Downloaded brotli-decompressor v6.3.2
+  Downloaded icu_segmenter_data v2.3.0
+  Downloaded find-msvc-tools v0.1.14
+  Downloaded glifo v0.1.1
+  Downloaded iana-time-zone v0.1.65
+  Downloaded icu_calendar v2.3.0
+  Downloaded image v0.25.10
+  Downloaded lebe v0.5.3
+  Downloaded async-io v2.6.0
+  Downloaded boa_gc v0.22.0
+  Downloaded brotli-decompressor v5.0.3
+  Downloaded cc v1.5.1
+  Downloaded color v0.3.3
+  Downloaded color_quant v1.1.0
+  Downloaded num-integer v0.1.47
+  Downloaded num_enum_derive v0.7.6
+  Downloaded icu_plurals v2.3.0
+  Downloaded indexmap v2.14.2
+  Downloaded num-bigint v0.5.1
+  Downloaded base64 v0.23.1
+  Downloaded autocfg v1.5.1
+  Downloaded hashbrown v0.17.1
+  Downloaded hmac v0.12.1
+  Downloaded async-channel v2.5.0
+  Downloaded arrayvec v0.7.8
+  Downloaded num_enum v0.7.6
+  Downloaded blocking v1.7.0
+  Downloaded curve25519-dalek-derive v0.1.1
+  Downloaded pic-scale v0.7.12
+  Downloaded phf_macros v0.14.0
+  Downloaded pin-project v1.1.13
+  Downloaded pin-project-internal v1.1.13
+  Downloaded bitflags v2.13.2
+  Downloaded block-padding v0.4.2
+  Downloaded event-listener v5.4.2
+  Downloaded phf_generator v0.14.0
+  Downloaded pxfm v0.1.30
+  Downloaded rangemap v1.8.0
+  Downloaded ecb v0.2.1
+  Downloaded phf_shared v0.13.1
+  Downloaded rayon v1.12.0
+  Downloaded regex-syntax v0.8.11
+  Downloaded adler2 v2.0.1
+  Downloaded aho-corasick v1.1.5
+  Downloaded boa_macros v0.22.0
+  Downloaded calendrical_calculations v0.2.4
+  Downloaded chacha20 v0.10.2
+  Downloaded chardetng v1.0.0
+  Downloaded concurrent-queue v2.5.0
+  Downloaded num_cpus v1.17.0
+  Downloaded phf_macros v0.13.1
+  Downloaded phf_shared v0.14.0
+  Downloaded rand v0.10.3
+  Downloaded rand_core v0.10.1
+  Downloaded zvariant_utils v4.2.0
+  Downloaded aes v0.9.3
+  Downloaded core_detect v1.0.0
+  Downloaded ff v0.14.0
+  Downloaded font-types v0.11.3
+  Downloaded hybrid-array v0.4.15
+  Downloaded inout v0.2.2
+  Downloaded icu_decimal v2.3.0
+  Downloaded num-conv v0.2.2
+  Downloaded boa_ast v0.22.0
+  Downloaded cpufeatures v0.2.17
+  Downloaded num-traits v0.2.19
+  Downloaded num_threads v0.1.7
+  Downloaded parking_lot_core v0.9.12
+  Downloaded pastey v0.2.3
+  Downloaded pbkdf2 v0.13.0
+  Downloaded pem-rfc7468 v1.0.0
+  Downloaded potential_utf v0.1.6
+  Downloaded powerfmt v0.2.0
+  Downloaded zlib-rs v0.6.8
+  Downloaded atomic-waker v1.1.2
+  Downloaded base16ct v1.0.0
+  Downloaded bitflags v1.3.2
+  Downloaded icu_segmenter v2.3.0
+  Downloaded async-signal v0.2.14
+  Downloaded boa_parser v0.22.0
+  Downloaded peniko v0.6.1
+  Downloaded piper v0.2.5
+  Downloaded primefield v0.14.0
+  Downloaded async-trait v0.1.92
+  Downloaded zerovec-derive v0.11.6
+  Downloaded zip v9.1.3
+  Downloaded zmij v1.0.23
+  Downloaded block-buffer v0.10.4
+  Downloaded boa_engine v0.22.0
+  Downloaded pkcs1 v0.8.0-rc.4
+  Downloaded async-task v4.7.1
+  Downloaded bit_field v0.10.4
+  Downloaded base64ct v1.8.3
+  Downloaded block-buffer v0.12.1
+  Downloaded aws-lc-rs v1.18.2
+  Downloaded bp256 v0.14.0
+  Downloaded bp384 v0.14.0
+  Downloaded zeroize_derive v1.5.0
+  Downloaded cow-utils v0.1.3
+  Downloaded linux-raw-sys v0.12.1
+  Downloaded zerovec v0.11.8
+  Downloaded phf v0.14.0
+  Downloaded phf v0.13.1
+  Downloaded zerocopy-derive v0.8.59
+  Downloaded async-recursion v1.1.1
+  Downloaded zune-core v0.5.3
+  Downloaded pin-project-lite v0.2.17
+  Downloaded percent-encoding v2.3.2
+  Downloaded read-fonts v0.41.0
+  Downloaded roxmltree v0.21.2
+  Downloaded rsa v0.10.0-rc.18
+  Downloaded rten-base v0.26.0
+  Downloaded allocator-api2 v0.2.21
+  Downloaded phf_generator v0.13.1
+  Downloaded rten v0.26.0
+  Downloaded rten-model-file v0.26.0
+  Downloaded zerofrom v0.1.8
+  Downloaded read-fonts v0.44.0
+  Downloaded postcard v1.1.3
+  Downloaded ripemd v0.2.0
+  Downloaded rten-gemm v0.26.0
+  Downloaded rten-imageproc v0.26.0
+  Downloaded zerocopy v0.8.59
+  Downloaded zerofrom-derive v0.1.8
+  Downloaded quick-xml v0.41.0
+  Downloaded portable-atomic v1.15.0
+  Downloaded png v0.17.16
+  Downloaded polycool v0.4.0
+  Downloaded read-fonts v0.43.3
+  Downloaded cipher v0.5.2
+  Downloaded png v0.18.1
+  Downloaded rayon-core v1.13.0
+  Downloaded rc2 v0.9.0
+  Downloaded read-fonts v0.39.2
+  Downloaded alloc-stdlib v0.3.0
+  Downloaded cmake v0.1.58
+  Downloaded cmov v0.5.4
+  Downloaded quote v1.0.47
+  Downloaded alloc-stdlib v0.2.4
+  Downloaded async-process v2.5.0
+  Downloaded cobs v0.3.0
+  Downloaded alloc-no-stdlib v3.0.0
+  Downloaded brotli v8.0.4
+  Downloaded polling v3.11.0
+  Downloaded core_maths v0.1.1
+  Downloaded pkg-config v0.3.34
+  Downloaded pkcs8 v0.11.0
+  Downloaded alloc-no-stdlib v2.0.4
+  Downloaded aws-lc-sys v0.46.0
+  Downloaded cfg-if v1.0.5
+  Downloaded const-oid v0.10.2
+  Downloaded cpubits v0.1.1
+  Downloaded chrono v0.4.45
+  Downloaded zeroize v1.9.0
+  Downloaded aligned-vec v0.6.4
+  Downloaded async-lock v3.4.2
+   Compiling unicode-ident v1.0.26
+   Compiling quote v1.0.47
+   Compiling proc-macro2 v1.0.107
+   Compiling serde_core v1.0.229
+   Compiling syn v3.0.6
+   Compiling cfg-if v1.0.5
+   Compiling serde v1.0.229
+   Compiling libc v0.2.189
+   Compiling syn v2.0.119
+   Compiling serde_derive v1.0.229
+   Compiling autocfg v1.5.1
+   Compiling thiserror v2.0.21
+   Compiling thiserror-impl v2.0.21
+   Compiling num-traits v0.2.19
+   Compiling subtle v2.6.1
+   Compiling typenum v1.20.1
+   Compiling rand_core v0.10.1
+   Compiling getrandom v0.4.3
+   Compiling smallvec v1.16.2
+   Compiling zeroize v1.9.0
+   Compiling memchr v2.8.3
+   Compiling synstructure v0.14.0
+   Compiling hybrid-array v0.4.15
+   Compiling equivalent v1.0.2
+   Compiling bitflags v2.13.2
+   Compiling stable_deref_trait v1.2.1
+   Compiling crypto-common v0.2.2
+   Compiling cmov v0.5.4
+   Compiling simd-adler32 v0.3.10
+   Compiling ctutils v0.4.8
+   Compiling either v1.18.0
+   Compiling adler2 v2.0.1
+   Compiling crc32fast v1.5.2
+   Compiling const-oid v0.10.2
+   Compiling miniz_oxide v0.9.1
+   Compiling zlib-rs v0.6.8
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling zerofrom v0.1.8
+   Compiling flate2 v1.1.10
+   Compiling block-buffer v0.12.1
+   Compiling digest v0.11.3
+   Compiling bytemuck_derive v1.12.1
+   Compiling yoke v0.8.3
+   Compiling log v0.4.34
+   Compiling arrayvec v0.7.8
+   Compiling once_cell v1.21.4
+   Compiling iana-time-zone v0.1.65
+   Compiling chrono v0.4.45
+   Compiling cpubits v0.1.1
+   Compiling allocator-api2 v0.2.21
+   Compiling foldhash v0.2.0
+   Compiling hashbrown v0.17.1
+   Compiling cpufeatures v0.3.1
+   Compiling unicode-bidi v0.3.18
+   Compiling polycool v0.4.0
+   Compiling miniz_oxide v0.8.9
+   Compiling displaydoc v0.2.7
+   Compiling bytemuck v1.25.2
+   Compiling zerovec-derive v0.11.6
+   Compiling zerocopy v0.8.59
+   Compiling zune-core v0.5.3
+   Compiling siphasher v1.0.4
+   Compiling crossbeam-utils v0.8.23
+   Compiling zerovec v0.11.8
+   Compiling kurbo v0.13.1
+   Compiling fdeflate v0.3.7
+   Compiling zerocopy-derive v0.8.59
+   Compiling zune-jpeg v0.5.15
+   Compiling writeable v0.6.4
+   Compiling fastrand v2.5.0
+   Compiling block-padding v0.4.2
+   Compiling weezl v0.1.12
+   Compiling fax v0.2.7
+   Compiling rustc-hash v2.1.3
+   Compiling quick-error v2.0.1
+   Compiling inout v0.2.2
+   Compiling pxfm v0.1.30
+   Compiling itoa v1.0.18
+   Compiling cipher v0.5.2
+   Compiling png v0.18.1
+   Compiling font-types v0.12.5
+   Compiling litemap v0.8.3
+   Compiling winnow v1.0.4
+   Compiling half v2.7.1
+   Compiling tiff v0.11.3
+   Compiling moxcms v0.8.1
+   Compiling tinystr v0.8.4
+   Compiling sha2 v0.11.1
+   Compiling cobs v0.3.0
+   Compiling fearless_simd v0.4.1
+   Compiling color_quant v1.1.0
+   Compiling byteorder-lite v0.1.0
+   Compiling image-webp v0.2.4
+   Compiling gif v0.14.2
+   Compiling postcard v1.1.3
+   Compiling icu_locale_core v2.3.0
+   Compiling zerotrie v0.2.5
+   Compiling qoi v0.4.1
+   Compiling icu_provider v2.3.1
+   Compiling image v0.25.10
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling alloc-stdlib v0.2.4
+   Compiling zmij v1.0.23
+   Compiling tinyvec v1.13.3
+   Compiling unicode-normalization v0.1.25
+   Compiling brotli-decompressor v5.0.3
+   Compiling aes v0.9.3
+   Compiling phf_shared v0.13.1
+   Compiling serde_json v1.0.154
+   Compiling hayro-ccitt v0.3.0
+   Compiling unicode-properties v0.1.4
+   Compiling stringprep v0.1.5
+   Compiling hayro-jbig2 v0.3.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling phf_generator v0.13.1
+   Compiling hayro-jpeg2000 v0.3.5
+   Compiling read-fonts v0.44.0
+   Compiling color v0.3.3
+   Compiling euclid v0.22.14
+   Compiling linebender_resource_handle v0.1.1
+   Compiling peniko v0.6.1
+   Compiling guillotiere v0.7.0
+   Compiling skrifa v0.47.0
+   Compiling phf_macros v0.13.1
+   Compiling brotli v8.0.4
+   Compiling potential_utf v0.1.6
+   Compiling quick-xml v0.41.0
+   Compiling hayro-postscript v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling hayro-cmap v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling phf v0.13.1
+   Compiling vello_common v0.0.8 (/home/claude/artcraft-src/pdfcraft/vendor/vello_common)
+   Compiling hayro-syntax v0.7.2 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling toml_datetime v1.1.1+spec-1.1.0
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling crossbeam-epoch v0.9.21
+   Compiling hayro-interpret v0.7.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling vello_cpu v0.0.8 (/home/claude/artcraft-src/pdfcraft/vendor/vello_cpu)
+   Compiling pic-scale v0.7.12
+   Compiling md-5 v0.11.0
+   Compiling crossbeam-deque v0.8.8
+   Compiling hayro v0.7.1 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-stream-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling rayon-core v1.13.0
+   Compiling utf8_iter v1.0.4
+   Compiling icu_collections v2.3.0
+   Compiling craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling indexmap v2.14.2
+   Compiling craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling toml_edit v0.25.15+spec-1.1.0
+   Compiling rustversion v1.0.23
+   Compiling proc-macro-crate v3.5.0
+   Compiling pdfcraft-cos v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/cos)
+   Compiling rayon v1.12.0
+   Compiling icu_properties_data v2.3.0
+   Compiling pin-project-lite v0.2.17
+   Compiling icu_normalizer_data v2.3.0
+   Compiling read-fonts v0.41.0
+   Compiling icu_locale_fallback_data v2.3.0
+   Compiling craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling version_check v0.9.5
+   Compiling pdfcraft-fonts v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/fonts)
+   Compiling icu_properties v2.3.0
+   Compiling utf16_iter v1.0.5
+   Compiling libm v0.2.16
+   Compiling write16 v1.0.0
+   Compiling parking v2.2.1
+   Compiling icu_normalizer v2.3.0
+   Compiling harfrust v0.12.0
+   Compiling skrifa v0.44.0
+   Compiling crypto-bigint v0.7.11
+   Compiling scopeguard v1.2.0
+   Compiling base64 v0.23.1
+   Compiling icu_locale_fallback v2.3.0
+   Compiling pdfcraft-model v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/model)
+   Compiling futures-core v0.3.34
+   Compiling semver v1.0.28
+   Compiling rustc_version v0.4.1
+   Compiling core_maths v0.1.1
+   Compiling generic-array v0.14.7
+   Compiling hmac v0.13.0
+   Compiling ff v0.14.0
+   Compiling calendrical_calculations v0.2.4
+   Compiling encoding_rs v0.8.42
+   Compiling pdfcraft-content v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/content)
+   Compiling fixed_decimal v0.7.3
+   Compiling der v0.8.2
+   Compiling futures-io v0.3.34
+   Compiling icu_calendar v2.3.0
+   Compiling group v0.14.0
+   Compiling signature v3.0.0
+   Compiling simdutf8 v0.1.5
+   Compiling multiversion_no_op v1.0.0
+   Compiling base16ct v1.0.0
+   Compiling target-features v0.1.6
+   Compiling core_detect v1.0.0
+   Compiling sec1 v0.8.1
+   Compiling icu_time v2.3.0
+   Compiling futures-lite v2.6.1
+   Compiling icu_plurals v2.3.0
+   Compiling icu_decimal v2.3.0
+   Compiling event-listener v5.4.2
+   Compiling icu_pattern v0.5.0
+   Compiling concurrent-queue v2.5.0
+   Compiling rustix v1.1.6
+   Compiling rten-base v0.26.0
+   Compiling icu_datetime v2.3.0
+   Compiling event-listener-strategy v0.5.4
+   Compiling elliptic-curve v0.14.1
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling primefield v0.14.0
+   Compiling icu_provider_adapters v2.3.0
+   Compiling icu_provider_blob v2.3.0
+   Compiling jobserver v0.1.35
+   Compiling serde_spanned v1.1.1
+   Compiling alloc-no-stdlib v3.0.0
+   Compiling pdfcraft-geom v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/geom)
+   Compiling shlex v2.0.1
+   Compiling linux-raw-sys v0.12.1
+   Compiling sys-locale v0.3.2
+   Compiling typeid v1.0.3
+   Compiling find-msvc-tools v0.1.14
+   Compiling cc v1.5.1
+   Compiling craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling alloc-stdlib v0.3.0
+   Compiling toml v1.1.6+spec-1.1.0
+   Compiling wnaf v0.14.1
+   Compiling digest v0.10.7
+   Compiling multiversion-macros v0.8.1
+   Compiling spki v0.8.0
+   Compiling rfc6979 v0.6.0
+   Compiling phf_shared v0.14.0
+   Compiling enumflags2_derive v0.7.12
+   Compiling web-time v1.1.0
+   Compiling getrandom v0.3.4
+   Compiling bitflags v1.3.2
+   Compiling craft-host v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling multiversion v0.8.1
+   Compiling phf_generator v0.14.0
+   Compiling ecdsa v0.17.0
+   Compiling primeorder v0.14.0
+   Compiling brotli-decompressor v6.3.2
+   Compiling cmake v0.1.58
+   Compiling pdfcraft-annot v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/annot)
+   Compiling rten-parallel v0.26.0
+   Compiling zvariant_utils v4.2.0
+   Compiling craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling zune-inflate v0.2.54
+   Compiling roxmltree v0.21.2
+   Compiling ryu-js v1.0.3
+   Compiling lebe v0.5.3
+   Compiling dunce v1.0.5
+   Compiling cow-utils v0.1.3
+   Compiling pkg-config v0.3.34
+   Compiling static_assertions v1.1.0
+   Compiling fs_extra v1.3.0
+   Compiling unicode-segmentation v1.13.3
+   Compiling bit_field v0.10.4
+   Compiling fast-float2 v0.2.4
+   Compiling pastey v0.2.3
+   Compiling exr v1.74.3
+   Compiling boa_string v0.22.0
+   Compiling aws-lc-sys v0.46.0
+   Compiling boa_macros v0.22.0
+   Compiling craft-math v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-metadata v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling zvariant_derive v5.15.0
+   Compiling rten-tensor v0.26.0
+   Compiling phf_macros v0.14.0
+   Compiling async-channel v2.5.0
+   Compiling flatbuffers v24.12.23
+   Compiling craft-dds v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling zune-jpegxl v0.5.2
+   Compiling craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling heck v0.5.0
+   Compiling jpeg-encoder v0.6.1
+   Compiling thin-vec v0.2.20
+   Compiling icu_segmenter_data v2.3.0
+   Compiling endi v1.1.1
+   Compiling typed-path v0.13.0
+   Compiling boa_gc v0.22.0
+   Compiling strum_macros v0.28.0
+   Compiling zip v9.1.3
+   Compiling craft-image-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling phf v0.14.0
+   Compiling craft-wordmodel v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling curve25519-dalek v5.0.0
+   Compiling craft-ui-macros v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling sha1 v0.11.0
+   Compiling chacha20 v0.10.2
+   Compiling num-integer v0.1.47
+   Compiling async-io v2.6.0
+   Compiling craft-tracked v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling slab v0.4.12
+   Compiling rten-simd v0.26.0
+   Compiling emath v0.37.0 (https://github.com/storytold/egui.git?rev=f5025284445ea19c35f746d96fc0b75468b3f560#f5025284)
+   Compiling parking_lot_core v0.9.12
+   Compiling craft-codepage v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling ecolor v0.37.0 (https://github.com/storytold/egui.git?rev=f5025284445ea19c35f746d96fc0b75468b3f560#f5025284)
+   Compiling num-bigint v0.5.1
+   Compiling rand v0.10.3
+   Compiling boa_interner v0.22.0
+   Compiling strum v0.28.0
+   Compiling craft-zip v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling enumflags2 v0.7.12
+   Compiling polling v3.11.0
+   Compiling zcheapstr v1.1.0
+   Compiling chardetng v1.0.0
+   Compiling cbc v0.2.1
+   Compiling equator-macro v0.4.2
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling pin-project-internal v1.1.13
+   Compiling errno v0.3.14
+   Compiling uuid v1.26.1
+   Compiling portable-atomic v1.15.0
+   Compiling num-conv v0.2.2
+   Compiling aws-lc-rs v1.18.2
+   Compiling time-core v0.1.9
+   Compiling anyhow v1.0.104
+   Compiling async-task v4.7.1
+   Compiling time-macros v0.2.32
+   Compiling pin-project v1.1.13
+   Compiling signal-hook-registry v1.4.8
+   Compiling equator v0.4.2
+   Compiling craft-mime v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling zvariant v5.15.0
+   Compiling icu_segmenter v2.3.0
+   Compiling craft-opc v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling boa_ast v0.22.0
+   Compiling rten-model-file v0.26.0
+   Compiling craft-theme v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling rten-gemm v0.26.0
+   Compiling rten-vecmath v0.26.0
+   Compiling craft-flow v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling rten-shape-inference v0.26.0
+   Compiling md-5 v0.10.6
+   Compiling ed25519 v3.0.0
+   Compiling lock_api v0.4.14
+   Compiling crypto-primes v0.7.2
+   Compiling idna_adapter v1.2.2
+   Compiling num_enum_derive v0.7.6
+   Compiling craft-drawingml v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-xfa v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-filters v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/filters)
+   Compiling regress v0.12.0
+   Compiling craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling dynify-macros v0.1.2
+   Compiling num_cpus v1.17.0
+   Compiling keccak v0.2.2
+   Compiling rten-onnx v0.26.0
+   Compiling num_threads v0.1.7
+   Compiling regex-syntax v0.8.11
+   Compiling hashbrown v0.14.5
+   Compiling craft-cfb v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling percent-encoding v2.3.2
+   Compiling atomic-waker v1.1.2
+   Compiling fixedbitset v0.5.7
+   Compiling powerfmt v0.2.0
+   Compiling sponge-cursor v0.1.0
+   Compiling deranged v0.5.8
+   Compiling time v0.3.55
+   Compiling sha3 v0.12.0
+   Compiling futures-concurrency v7.7.1
+   Compiling piper v0.2.5
+   Compiling form_urlencoded v1.2.3
+   Compiling craft-offcrypto v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling dashmap v6.2.1
+   Compiling regex-automata v0.4.18
+   Compiling rten v0.26.0
+   Compiling dynify v0.1.2
+   Compiling boa_parser v0.22.0
+   Compiling pdfcraft-xfa v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/xfa)
+   Compiling num_enum v0.7.6
+   Compiling idna v1.1.0
+   Compiling rsa v0.10.0-rc.18
+   Compiling ed25519-dalek v3.0.0
+   Compiling craft-cms v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-edit v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/edit)
+   Compiling async-signal v0.2.14
+   Compiling zbus_names v4.3.4
+   Compiling craft-html v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling aligned-vec v0.6.4
+   Compiling rten-imageproc v0.26.0
+   Compiling bp384 v0.14.0
+   Compiling bp256 v0.14.0
+   Compiling p256 v0.14.0
+   Compiling p384 v0.14.0
+   Compiling p521 v0.14.0
+   Compiling async-lock v3.4.2
+   Compiling craft-metafile v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-forms v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/forms)
+   Compiling pbkdf2 v0.13.0
+   Compiling read-fonts v0.43.3
+   Compiling rc2 v0.9.0
+   Compiling des v0.9.0
+   Compiling ecb v0.2.1
+   Compiling tracing-core v0.1.36
+   Compiling small_btree v0.1.0
+   Compiling ripemd v0.2.0
+   Compiling itertools v0.15.0
+   Compiling nom v8.0.0
+   Compiling tracing-attributes v0.1.31
+   Compiling tag_ptr v0.1.0
+   Compiling weezl v0.2.1
+   Compiling craft-atomic v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling intrusive-collections v0.10.3
+   Compiling tap v1.0.1
+   Compiling craft-winprint-gdi v0.1.0 (https://github.com/storytold/winprint.rs?rev=64e7afd4d1483512385012c340ecaaaf0f3beb7f#64e7afd4)
+   Compiling oneshot v0.2.1
+   Compiling cpufeatures v0.2.17
+   Compiling rangemap v1.8.0
+   Compiling pdfcraft-print v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/print)
+   Compiling lopdf v0.45.0 (/home/claude/artcraft-src/pdfcraft/vendor/lopdf)
+   Compiling tracing v0.1.44
+   Compiling sha2 v0.10.9
+   Compiling boa_engine v0.22.0
+   Compiling craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-platform v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-pkcs7 v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling harfrust v0.13.3
+   Compiling craft-rtf v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling async-process v2.5.0
+   Compiling ocrs v0.13.1
+   Compiling craft-markdown v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling zbus_macros v5.19.0
+   Compiling url v2.5.9
+   Compiling regex v1.13.1
+   Compiling craft-docx v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling blocking v1.7.0
+   Compiling craft-pptx v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling async-executor v1.14.1
+   Compiling accesskit v0.25.1
+   Compiling craft-keymap v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-control v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling png v0.17.16
+   Compiling hmac v0.12.1
+   Compiling async-broadcast v0.7.2
+   Compiling ordered-stream v0.2.0
+   Compiling thread-priority v3.1.1
+   Compiling craft-xfdf v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling aho-corasick v1.1.5
+   Compiling craft-csv v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling async-recursion v1.1.1
+   Compiling async-trait v0.1.92
+   Compiling serde_repr v0.1.21
+   Compiling hex v0.4.3
+   Compiling pdfcraft-xfdf v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/xfdf)
+   Compiling pdfcraft-redact v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/redact)
+   Compiling zbus v5.19.0
+   Compiling pdfcraft-optimize v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/optimize)
+   Compiling craft-automation v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-behavior v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-export v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/export)
+   Compiling pdfcraft-render v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/render)
+   Compiling pdfcraft-ocr v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/ocr)
+   Compiling pdfcraft-js v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/js)
+   Compiling winresource v0.1.34
+   Compiling craft-font-catalog v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-sign v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/sign)
+   Compiling pdfcraft-audit v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/audit)
+   Compiling pdfcraft-preflight v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/preflight)
+   Compiling pdfcraft-create v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/create)
+   Compiling pdfcraft-measure v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/measure)
+   Compiling pdfcraft-organize v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/organize)
+   Compiling pdfcraft-a11y v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/a11y)
+   Compiling craft-prc v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-compare v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/compare)
+   Compiling pdfcraft-engine v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/engine)
+   Compiling pdfcraft-prc-render v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/prc-render)
+   Compiling pdfcraft-cli v0.22.0 (/home/claude/artcraft-src/pdfcraft/apps/pdfcraft-cli)
+   Compiling craft v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-platform v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/platform)
+   Compiling tempfile v3.27.0
+   Compiling craft-jsonrpc v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling craft-mcp-server v0.1.0 (https://github.com/storytold/craft-libs?rev=0a6e42b80bfd586aee6ee1144aa98cf1ea37a844#0a6e42b8)
+   Compiling pdfcraft-automation v0.22.0 (/home/claude/artcraft-src/pdfcraft/crates/automation)
+    Finished `dev` profile [optimized + debuginfo] target(s) in 21m 27s

@@ -1,0 +1,339 @@
+warning: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=b9770908e0f304896f9658d239a7b29cf8af1564#b9770908)` was not used in the crate graph
+warning: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=b9770908e0f304896f9658d239a7b29cf8af1564#b9770908)` was not used in the crate graph
+warning: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=b9770908e0f304896f9658d239a7b29cf8af1564#b9770908)` was not used in the crate graph
+warning: patch `hayro v0.7.1 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)` was not used in the crate graph
+help: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.26
+   Compiling serde_core v1.0.229
+   Compiling syn v3.0.6
+   Compiling serde v1.0.229
+   Compiling cfg-if v1.0.5
+   Compiling thiserror v2.0.21
+   Compiling simd-adler32 v0.3.10
+   Compiling memchr v2.8.3
+   Compiling adler2 v2.0.1
+   Compiling crc32fast v1.5.2
+   Compiling miniz_oxide v0.9.1
+   Compiling autocfg v1.5.1
+   Compiling num-traits v0.2.19
+   Compiling log v0.4.34
+   Compiling zlib-rs v0.6.8
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.21
+   Compiling bytemuck_derive v1.12.1
+   Compiling smallvec v1.16.2
+   Compiling flate2 v1.1.10
+   Compiling bitflags v2.13.2
+   Compiling either v1.19.0
+   Compiling itoa v1.0.18
+   Compiling syn v2.0.119
+   Compiling bytemuck v1.25.2
+   Compiling zmij v1.0.23
+   Compiling libc v0.2.191
+   Compiling synstructure v0.14.0
+   Compiling serde_json v1.0.154
+   Compiling typenum v1.20.1
+   Compiling equivalent v1.0.2
+   Compiling zerofrom-derive v0.1.8
+   Compiling miniz_oxide v0.8.9
+   Compiling quick-xml v0.41.0
+   Compiling zerofrom v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling fdeflate v0.3.7
+   Compiling stable_deref_trait v1.2.1
+   Compiling iana-time-zone v0.1.65
+   Compiling chrono v0.4.45
+   Compiling yoke v0.8.4
+   Compiling zune-core v0.5.3
+   Compiling zerocopy v0.8.61
+   Compiling arrayvec v0.7.8
+   Compiling foldhash v0.2.0
+   Compiling polycool v0.4.0
+   Compiling hashbrown v0.17.1
+   Compiling zerocopy-derive v0.8.61
+   Compiling quick-error v2.0.1
+   Compiling weezl v0.1.12
+   Compiling kurbo v0.13.1
+   Compiling zune-jpeg v0.5.15
+   Compiling png v0.18.1
+   Compiling zerovec-derive v0.11.7
+   Compiling displaydoc v0.2.7
+   Compiling half v2.7.1
+   Compiling zerovec v0.11.9
+   Compiling writeable v0.6.4
+   Compiling fax v0.2.7
+   Compiling base64 v0.23.1
+   Compiling color_quant v1.1.0
+   Compiling byteorder-lite v0.1.0
+   Compiling gif v0.14.2
+   Compiling image-webp v0.2.4
+   Compiling tiff v0.11.3
+   Compiling craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling pxfm v0.1.30
+   Compiling crossbeam-utils v0.8.23
+   Compiling moxcms v0.8.1
+   Compiling indexmap v2.14.2
+   Compiling qoi v0.4.1
+   Compiling litemap v0.8.3
+   Compiling once_cell v1.21.4
+   Compiling image v0.25.10
+   Compiling tinystr v0.8.4
+   Compiling cobs v0.3.0
+   Compiling unicode-segmentation v1.13.3
+   Compiling postcard v1.1.3
+   Compiling icu_locale_core v2.3.0
+   Compiling zerotrie v0.2.5
+   Compiling hybrid-array v0.4.15
+   Compiling rustversion v1.0.23
+   Compiling crossbeam-epoch v0.9.21
+   Compiling icu_provider v2.3.1
+   Compiling crossbeam-deque v0.8.8
+   Compiling rayon-core v1.13.0
+   Compiling getrandom v0.4.3
+   Compiling unicode-bidi v0.3.18
+   Compiling encoding_rs v0.8.42
+   Compiling crypto-common v0.2.2
+   Compiling font-types v0.12.7
+   Compiling version_check v0.9.5
+   Compiling target-features v0.1.6
+   Compiling generic-array v0.14.7
+   Compiling roxmltree v0.21.2
+   Compiling cmov v0.5.4
+   Compiling core_detect v1.0.0
+   Compiling fearless_simd v0.4.1
+   Compiling scopeguard v1.2.0
+   Compiling simdutf8 v0.1.5
+   Compiling typed-path v0.13.0
+   Compiling multiversion_no_op v1.0.0
+   Compiling libm v0.2.16
+   Compiling zip v9.1.0
+   Compiling ctutils v0.4.7
+   Compiling craft-math v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling block-buffer v0.12.1
+   Compiling potential_utf v0.1.6
+   Compiling winnow v1.0.4
+   Compiling alloc-no-stdlib v3.0.0
+   Compiling craft-codepage v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling const-oid v0.10.2
+   Compiling digest v0.11.3
+   Compiling alloc-stdlib v0.3.0
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling craft-wordmodel v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling multiversion-macros v0.8.1
+   Compiling craft-zip v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling rayon v1.12.0
+   Compiling serde_spanned v1.1.1
+   Compiling toml_datetime v1.1.1+spec-1.1.0
+   Compiling zeroize v1.9.1
+   Compiling subtle v2.6.1
+   Compiling toml v1.1.6+spec-1.1.0
+   Compiling core_maths v0.1.1
+   Compiling multiversion v0.8.1
+   Compiling brotli-decompressor v6.3.1
+   Compiling craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling zune-inflate v0.2.54
+   Compiling cpufeatures v0.3.1
+   Compiling getrandom v0.3.4
+   Compiling lebe v0.5.3
+   Compiling icu_locale_fallback_data v2.3.0
+   Compiling bit_field v0.10.4
+   Compiling exr v1.74.3
+   Compiling craft-metadata v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling calendrical_calculations v0.2.4
+   Compiling craft-dds v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling hayro-jpeg2000 v0.3.5
+   Compiling fixed_decimal v0.7.3
+   Compiling zune-jpegxl v0.5.2
+   Compiling craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling icu_normalizer_data v2.3.0
+   Compiling utf8_iter v1.0.4
+   Compiling icu_properties_data v2.3.0
+   Compiling jpeg-encoder v0.7.1
+   Compiling craft-image-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling icu_collections v2.3.0
+   Compiling digest v0.10.7
+   Compiling icu_calendar v2.3.0
+   Compiling find-msvc-tools v0.1.14
+   Compiling shlex v2.0.1
+   Compiling bytes v1.12.1
+   Compiling cc v1.6.0
+   Compiling toml_edit v0.25.15+spec-1.1.0
+   Compiling icu_locale_fallback v2.3.0
+   Compiling icu_time v2.3.0
+   Compiling icu_decimal v2.3.0
+   Compiling icu_plurals v2.3.0
+   Compiling sha1 v0.11.0
+   Compiling inout v0.2.2
+   Compiling icu_pattern v0.5.1
+   Compiling utf16_iter v1.0.5
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling write16 v1.0.0
+   Compiling linebender_resource_handle v0.1.1
+   Compiling icu_normalizer v2.3.0
+   Compiling alloc-stdlib v0.2.4
+   Compiling icu_datetime v2.3.0
+   Compiling cipher v0.5.2
+   Compiling icu_properties v2.3.0
+   Compiling icu_provider_adapters v2.3.0
+   Compiling proc-macro-crate v3.5.0
+   Compiling ring v0.17.14
+   Compiling wordcraft-geom v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/geom)
+   Compiling craft-flow v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-metafile v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling read-fonts v0.44.0
+   Compiling read-fonts v0.43.3
+   Compiling read-fonts v0.41.0
+   Compiling icu_provider_blob v2.3.0
+   Compiling font-types v0.11.3
+   Compiling sys-locale v0.3.2
+   Compiling cpufeatures v0.2.17
+   Compiling craft-cfb v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling cpubits v0.1.1
+   Compiling aes v0.9.3
+   Compiling craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling read-fonts v0.39.2
+   Compiling harfrust v0.13.3
+   Compiling skrifa v0.47.0
+   Compiling wordcraft-doc v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/doc)
+   Compiling craft-ui-macros v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling brotli-decompressor v5.0.3
+   Compiling sha2 v0.11.1
+   Compiling hmac v0.13.0
+   Compiling rustix v1.1.6
+   Compiling craft-tracked v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling bumpalo v3.20.3
+   Compiling pkg-config v0.3.34
+   Compiling web-time v1.1.0
+   Compiling craft-host v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling yeslogic-fontconfig-sys v6.0.1
+   Compiling wuff v0.2.9
+   Compiling rustls-pki-types v1.15.1
+   Compiling chardetng v1.0.0
+   Compiling getrandom v0.2.17
+   Compiling color v0.3.3
+   Compiling euclid v0.22.14
+   Compiling libloading v0.8.9
+   Compiling io-lifetimes v3.0.1
+   Compiling untrusted v0.9.0
+   Compiling wordcraft-fonts v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/fonts)
+   Compiling linux-raw-sys v0.12.1
+   Compiling tinyvec v1.13.3
+   Compiling io-lifetimes v2.0.4
+   Compiling httparse v1.10.1
+   Compiling craft-proof v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling unicode-normalization v0.1.26
+   Compiling dlib v0.5.3
+   Compiling guillotiere v0.7.0
+   Compiling peniko v0.6.1
+   Compiling craft-mime v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling skrifa v0.42.1
+   Compiling write-fonts v0.48.1
+   Compiling craft-opc v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-drawingml v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling rustls v0.23.46
+   Compiling unicode-script v0.5.8
+   Compiling craft-sheet v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling arrayref v0.3.9
+   Compiling ryu v1.0.23
+   Compiling strict-num v0.1.1
+   Compiling rustc-hash v2.1.3
+   Compiling emath v0.37.0 (https://github.com/storytold/egui.git?rev=b9770908e0f304896f9658d239a7b29cf8af1564#b9770908)
+   Compiling craft-atomic v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling io-extras v0.19.0
+   Compiling ecolor v0.37.0 (https://github.com/storytold/egui.git?rev=b9770908e0f304896f9658d239a7b29cf8af1564#b9770908)
+   Compiling subsetter v0.2.6
+   Compiling tiny-skia-path v0.12.0
+   Compiling pdf-writer v0.15.0
+   Compiling vello_common v0.2.0
+   Compiling rustls-webpki v0.103.16
+   Compiling craft-offcrypto v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling sha2 v0.10.9
+   Compiling skrifa v0.44.0
+   Compiling http v1.5.0
+   Compiling crossbeam-channel v0.5.17
+   Compiling memmap2 v0.9.11
+   Compiling float-cmp v0.9.0
+   Compiling xmp-writer v0.3.3
+   Compiling imagesize v0.14.0
+   Compiling base64 v0.22.1
+   Compiling cap-primitives v4.0.3
+   Compiling unicode-linebreak v0.1.5
+   Compiling siphasher v1.0.4
+   Compiling parlance v0.1.1
+   Compiling krilla v0.8.2 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling fontique v0.11.1
+   Compiling wordcraft-layout v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/layout)
+   Compiling ordered-channel v1.2.0
+   Compiling ureq-proto v0.6.5
+   Compiling glifo v0.3.0
+   Compiling craft-docx v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling fs-set-times v0.20.3
+   Compiling craft-theme v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-html v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling rustix-linux-procfs v0.1.1
+   Compiling webpki-roots v1.0.11
+   Compiling craft-keymap v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-odf v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling sha1 v0.10.7
+   Compiling md-5 v0.10.6
+   Compiling md4 v0.11.0
+   Compiling filetime v0.2.29
+   Compiling aho-corasick v1.1.5
+   Compiling thread_local v1.1.10
+   Compiling ipnet v2.12.2
+   Compiling maybe-owned v0.3.4
+   Compiling percent-encoding v2.3.2
+   Compiling ambient-authority v0.0.2
+   Compiling regex-syntax v0.8.11
+   Compiling utf8-zero v0.8.1
+   Compiling ureq v3.5.0
+   Compiling regex-automata v0.4.18
+   Compiling vello_cpu v0.2.0
+   Compiling tar v0.4.46
+   Compiling craft-doc-binary v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-xls v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-ods v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-markdown v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling wordcraft-docx v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/docx)
+   Compiling craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-font-catalog v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-xlsx v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-latex v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-rtf v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling ruzstd v0.9.1
+   Compiling craft-font-os-windows v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling uuid v1.27.0
+   Compiling bitflags v1.3.2
+   Compiling png v0.17.16
+   Compiling accesskit v0.25.1
+   Compiling craft-font-store v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-platform v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling wordcraft-formats v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/formats)
+   Compiling wordcraft-pdf v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/pdf)
+   Compiling wordcraft-docbin v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/docbin)
+   Compiling wordcraft-render v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/render)
+   Compiling regex v1.13.1
+   Compiling craft-control v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling hmac v0.12.1
+   Compiling craft-ssip v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling wordcraft-engine v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/engine)
+   Compiling craft-automation v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-behavior v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling zopfli v0.8.4
+   Compiling zip v3.0.0
+   Compiling craft v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling craft-mcp-server v0.1.0 (https://github.com/storytold/craft-libs?rev=0b8bbaf4c842da2d47de7b3fddd7170ba6115541#0b8bbaf4)
+   Compiling wordcraft-control-key v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/control-key)
+   Compiling wordcraft-mcp v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/mcp)
+   Compiling wordcraft-validate v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/validate)
+   Compiling wordcraft-zotero v0.18.1 (/home/claude/artcraft-src/wordcraft/crates/zotero)
+   Compiling wordcraft-cli v0.18.1 (/home/claude/artcraft-src/wordcraft/apps/wordcraft-cli)
+    Finished `dev` profile [optimized + debuginfo] target(s) in 14m 33s

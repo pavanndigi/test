@@ -1,0 +1,981 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "05_ruled_table.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/05_ruled_table.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 26,
+          "lines": [
+            {
+              "font": "Helvetica-Bold",
+              "line": 1,
+              "rect": [
+                78.0,
+                79.4,
+                190.81,
+                95.5
+              ],
+              "size": 14.0,
+              "text": "Quarterly figures"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 2,
+              "rect": [
+                113.64,
+                114.0,
+                147.53,
+                125.5
+              ],
+              "size": 10.0,
+              "text": "Region"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 3,
+              "rect": [
+                248.3,
+                114.0,
+                261.64,
+                125.5
+              ],
+              "size": 10.0,
+              "text": "Q1"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 4,
+              "rect": [
+                318.3,
+                114.0,
+                331.64,
+                125.5
+              ],
+              "size": 10.0,
+              "text": "Q2"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 5,
+              "rect": [
+                388.3,
+                114.0,
+                401.64,
+                125.5
+              ],
+              "size": 10.0,
+              "text": "Q3"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 6,
+              "rect": [
+                457.75,
+                114.0,
+                481.64,
+                125.5
+              ],
+              "size": 10.0,
+              "text": "Total"
+            },
+            {
+              "font": "Helvetica",
+              "line": 7,
+              "rect": [
+                113.64,
+                132.0,
+                138.09,
+                143.5
+              ],
+              "size": 10.0,
+              "text": "North"
+            },
+            {
+              "font": "Helvetica",
+              "line": 8,
+              "rect": [
+                236.62,
+                132.0,
+                261.64,
+                143.5
+              ],
+              "size": 10.0,
+              "text": "1,200"
+            },
+            {
+              "font": "Helvetica",
+              "line": 9,
+              "rect": [
+                306.62,
+                132.0,
+                331.64,
+                143.5
+              ],
+              "size": 10.0,
+              "text": "1,350"
+            },
+            {
+              "font": "Helvetica",
+              "line": 10,
+              "rect": [
+                376.62,
+                132.0,
+                401.64,
+                143.5
+              ],
+              "size": 10.0,
+              "text": "1,410"
+            },
+            {
+              "font": "Helvetica",
+              "line": 11,
+              "rect": [
+                456.62,
+                132.0,
+                481.64,
+                143.5
+              ],
+              "size": 10.0,
+              "text": "3,960"
+            },
+            {
+              "font": "Helvetica",
+              "line": 12,
+              "rect": [
+                113.64,
+                150.0,
+                139.77,
+                161.5
+              ],
+              "size": 10.0,
+              "text": "South"
+            },
+            {
+              "font": "Helvetica",
+              "line": 13,
+              "rect": [
+                244.96,
+                150.0,
+                261.64,
+                161.5
+              ],
+              "size": 10.0,
+              "text": "980"
+            },
+            {
+              "font": "Helvetica",
+              "line": 14,
+              "rect": [
+                306.62,
+                150.0,
+                331.64,
+                161.5
+              ],
+              "size": 10.0,
+              "text": "1,020"
+            },
+            {
+              "font": "Helvetica",
+              "line": 15,
+              "rect": [
+                376.62,
+                150.0,
+                401.64,
+                161.5
+              ],
+              "size": 10.0,
+              "text": "1,110"
+            },
+            {
+              "font": "Helvetica",
+              "line": 16,
+              "rect": [
+                456.62,
+                150.0,
+                481.64,
+                161.5
+              ],
+              "size": 10.0,
+              "text": "3,110"
+            },
+            {
+              "font": "Helvetica",
+              "line": 17,
+              "rect": [
+                113.64,
+                168.0,
+                133.65,
+                179.5
+              ],
+              "size": 10.0,
+              "text": "East"
+            },
+            {
+              "font": "Helvetica",
+              "line": 18,
+              "rect": [
+                236.62,
+                168.0,
+                261.64,
+                179.5
+              ],
+              "size": 10.0,
+              "text": "1,500"
+            },
+            {
+              "font": "Helvetica",
+              "line": 19,
+              "rect": [
+                306.62,
+                168.0,
+                331.64,
+                179.5
+              ],
+              "size": 10.0,
+              "text": "1,480"
+            },
+            {
+              "font": "Helvetica",
+              "line": 20,
+              "rect": [
+                376.62,
+                168.0,
+                401.64,
+                179.5
+              ],
+              "size": 10.0,
+              "text": "1,620"
+            },
+            {
+              "font": "Helvetica",
+              "line": 21,
+              "rect": [
+                456.62,
+                168.0,
+                481.64,
+                179.5
+              ],
+              "size": 10.0,
+              "text": "4,600"
+            },
+            {
+              "font": "Helvetica",
+              "line": 22,
+              "rect": [
+                113.64,
+                186.0,
+                136.42,
+                197.5
+              ],
+              "size": 10.0,
+              "text": "West"
+            },
+            {
+              "font": "Helvetica",
+              "line": 23,
+              "rect": [
+                244.96,
+                186.0,
+                261.64,
+                197.5
+              ],
+              "size": 10.0,
+              "text": "870"
+            },
+            {
+              "font": "Helvetica",
+              "line": 24,
+              "rect": [
+                314.96,
+                186.0,
+                331.64,
+                197.5
+              ],
+              "size": 10.0,
+              "text": "910"
+            },
+            {
+              "font": "Helvetica",
+              "line": 25,
+              "rect": [
+                376.62,
+                186.0,
+                401.64,
+                197.5
+              ],
+              "size": 10.0,
+              "text": "1,005"
+            },
+            {
+              "font": "Helvetica",
+              "line": 26,
+              "rect": [
+                456.62,
+                186.0,
+                481.64,
+                197.5
+              ],
+              "size": 10.0,
+              "text": "2,785"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 26,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Quarterly figures",
+              "font": "Helvetica-Bold",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                78.0,
+                79.4,
+                190.81,
+                95.5
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 14.0,
+              "text": "Quarterly figures"
+            },
+            {
+              "editor_text": "Region",
+              "font": "Helvetica-Bold",
+              "lines": [
+                2
+              ],
+              "paragraph": 2,
+              "rect": [
+                113.64,
+                114.0,
+                147.53,
+                125.5
+              ],
+              "rows": [
+                [
+                  2
+                ]
+              ],
+              "size": 10.0,
+              "text": "Region"
+            },
+            {
+              "editor_text": "Q1",
+              "font": "Helvetica-Bold",
+              "lines": [
+                3
+              ],
+              "paragraph": 3,
+              "rect": [
+                248.3,
+                114.0,
+                261.64,
+                125.5
+              ],
+              "rows": [
+                [
+                  3
+                ]
+              ],
+              "size": 10.0,
+              "text": "Q1"
+            },
+            {
+              "editor_text": "Q2",
+              "font": "Helvetica-Bold",
+              "lines": [
+                4
+              ],
+              "paragraph": 4,
+              "rect": [
+                318.3,
+                114.0,
+                331.64,
+                125.5
+              ],
+              "rows": [
+                [
+                  4
+                ]
+              ],
+              "size": 10.0,
+              "text": "Q2"
+            },
+            {
+              "editor_text": "Q3",
+              "font": "Helvetica-Bold",
+              "lines": [
+                5
+              ],
+              "paragraph": 5,
+              "rect": [
+                388.3,
+                114.0,
+                401.64,
+                125.5
+              ],
+              "rows": [
+                [
+                  5
+                ]
+              ],
+              "size": 10.0,
+              "text": "Q3"
+            },
+            {
+              "editor_text": "Total",
+              "font": "Helvetica-Bold",
+              "lines": [
+                6
+              ],
+              "paragraph": 6,
+              "rect": [
+                457.75,
+                114.0,
+                481.64,
+                125.5
+              ],
+              "rows": [
+                [
+                  6
+                ]
+              ],
+              "size": 10.0,
+              "text": "Total"
+            },
+            {
+              "editor_text": "North",
+              "font": "Helvetica",
+              "lines": [
+                7
+              ],
+              "paragraph": 7,
+              "rect": [
+                113.64,
+                132.0,
+                138.09,
+                143.5
+              ],
+              "rows": [
+                [
+                  7
+                ]
+              ],
+              "size": 10.0,
+              "text": "North"
+            },
+            {
+              "editor_text": "1,200",
+              "font": "Helvetica",
+              "lines": [
+                8
+              ],
+              "paragraph": 8,
+              "rect": [
+                236.62,
+                132.0,
+                261.64,
+                143.5
+              ],
+              "rows": [
+                [
+                  8
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,200"
+            },
+            {
+              "editor_text": "1,350",
+              "font": "Helvetica",
+              "lines": [
+                9
+              ],
+              "paragraph": 9,
+              "rect": [
+                306.62,
+                132.0,
+                331.64,
+                143.5
+              ],
+              "rows": [
+                [
+                  9
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,350"
+            },
+            {
+              "editor_text": "1,410",
+              "font": "Helvetica",
+              "lines": [
+                10
+              ],
+              "paragraph": 10,
+              "rect": [
+                376.62,
+                132.0,
+                401.64,
+                143.5
+              ],
+              "rows": [
+                [
+                  10
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,410"
+            },
+            {
+              "editor_text": "3,960",
+              "font": "Helvetica",
+              "lines": [
+                11
+              ],
+              "paragraph": 11,
+              "rect": [
+                456.62,
+                132.0,
+                481.64,
+                143.5
+              ],
+              "rows": [
+                [
+                  11
+                ]
+              ],
+              "size": 10.0,
+              "text": "3,960"
+            },
+            {
+              "editor_text": "South",
+              "font": "Helvetica",
+              "lines": [
+                12
+              ],
+              "paragraph": 12,
+              "rect": [
+                113.64,
+                150.0,
+                139.77,
+                161.5
+              ],
+              "rows": [
+                [
+                  12
+                ]
+              ],
+              "size": 10.0,
+              "text": "South"
+            },
+            {
+              "editor_text": "980",
+              "font": "Helvetica",
+              "lines": [
+                13
+              ],
+              "paragraph": 13,
+              "rect": [
+                244.96,
+                150.0,
+                261.64,
+                161.5
+              ],
+              "rows": [
+                [
+                  13
+                ]
+              ],
+              "size": 10.0,
+              "text": "980"
+            },
+            {
+              "editor_text": "1,020",
+              "font": "Helvetica",
+              "lines": [
+                14
+              ],
+              "paragraph": 14,
+              "rect": [
+                306.62,
+                150.0,
+                331.64,
+                161.5
+              ],
+              "rows": [
+                [
+                  14
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,020"
+            },
+            {
+              "editor_text": "1,110",
+              "font": "Helvetica",
+              "lines": [
+                15
+              ],
+              "paragraph": 15,
+              "rect": [
+                376.62,
+                150.0,
+                401.64,
+                161.5
+              ],
+              "rows": [
+                [
+                  15
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,110"
+            },
+            {
+              "editor_text": "3,110",
+              "font": "Helvetica",
+              "lines": [
+                16
+              ],
+              "paragraph": 16,
+              "rect": [
+                456.62,
+                150.0,
+                481.64,
+                161.5
+              ],
+              "rows": [
+                [
+                  16
+                ]
+              ],
+              "size": 10.0,
+              "text": "3,110"
+            },
+            {
+              "editor_text": "East",
+              "font": "Helvetica",
+              "lines": [
+                17
+              ],
+              "paragraph": 17,
+              "rect": [
+                113.64,
+                168.0,
+                133.65,
+                179.5
+              ],
+              "rows": [
+                [
+                  17
+                ]
+              ],
+              "size": 10.0,
+              "text": "East"
+            },
+            {
+              "editor_text": "1,500",
+              "font": "Helvetica",
+              "lines": [
+                18
+              ],
+              "paragraph": 18,
+              "rect": [
+                236.62,
+                168.0,
+                261.64,
+                179.5
+              ],
+              "rows": [
+                [
+                  18
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,500"
+            },
+            {
+              "editor_text": "1,480",
+              "font": "Helvetica",
+              "lines": [
+                19
+              ],
+              "paragraph": 19,
+              "rect": [
+                306.62,
+                168.0,
+                331.64,
+                179.5
+              ],
+              "rows": [
+                [
+                  19
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,480"
+            },
+            {
+              "editor_text": "1,620",
+              "font": "Helvetica",
+              "lines": [
+                20
+              ],
+              "paragraph": 20,
+              "rect": [
+                376.62,
+                168.0,
+                401.64,
+                179.5
+              ],
+              "rows": [
+                [
+                  20
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,620"
+            },
+            {
+              "editor_text": "4,600",
+              "font": "Helvetica",
+              "lines": [
+                21
+              ],
+              "paragraph": 21,
+              "rect": [
+                456.62,
+                168.0,
+                481.64,
+                179.5
+              ],
+              "rows": [
+                [
+                  21
+                ]
+              ],
+              "size": 10.0,
+              "text": "4,600"
+            },
+            {
+              "editor_text": "West",
+              "font": "Helvetica",
+              "lines": [
+                22
+              ],
+              "paragraph": 22,
+              "rect": [
+                113.64,
+                186.0,
+                136.42,
+                197.5
+              ],
+              "rows": [
+                [
+                  22
+                ]
+              ],
+              "size": 10.0,
+              "text": "West"
+            },
+            {
+              "editor_text": "870",
+              "font": "Helvetica",
+              "lines": [
+                23
+              ],
+              "paragraph": 23,
+              "rect": [
+                244.96,
+                186.0,
+                261.64,
+                197.5
+              ],
+              "rows": [
+                [
+                  23
+                ]
+              ],
+              "size": 10.0,
+              "text": "870"
+            },
+            {
+              "editor_text": "910",
+              "font": "Helvetica",
+              "lines": [
+                24
+              ],
+              "paragraph": 24,
+              "rect": [
+                314.96,
+                186.0,
+                331.64,
+                197.5
+              ],
+              "rows": [
+                [
+                  24
+                ]
+              ],
+              "size": 10.0,
+              "text": "910"
+            },
+            {
+              "editor_text": "1,005",
+              "font": "Helvetica",
+              "lines": [
+                25
+              ],
+              "paragraph": 25,
+              "rect": [
+                376.62,
+                186.0,
+                401.64,
+                197.5
+              ],
+              "rows": [
+                [
+                  25
+                ]
+              ],
+              "size": 10.0,
+              "text": "1,005"
+            },
+            {
+              "editor_text": "2,785",
+              "font": "Helvetica",
+              "lines": [
+                26
+              ],
+              "paragraph": 26,
+              "rect": [
+                456.62,
+                186.0,
+                481.64,
+                197.5
+              ],
+              "rows": [
+                [
+                  26
+                ]
+              ],
+              "size": 10.0,
+              "text": "2,785"
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5438,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Helvetica-Bold",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "05_ruled_table.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/05_ruled_table.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1378,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

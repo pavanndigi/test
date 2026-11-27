@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "09_transparency.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/09_transparency/09_transparency.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 1,
+          "lines": [
+            {
+              "font": "Helvetica-Bold",
+              "line": 1,
+              "rect": [
+                72.0,
+                124.8,
+                481.22,
+                157.0
+              ],
+              "size": 28.0,
+              "text": "Text under transparent shapes"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 1,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Text under transparent shapes",
+              "font": "Helvetica-Bold",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                124.8,
+                481.22,
+                157.0
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 28.0,
+              "text": "Text under transparent shapes"
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5012,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/09_transparency/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Helvetica-Bold",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "09_transparency.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/09_transparency/09_transparency.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1174,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/09_transparency/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/09_transparency/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

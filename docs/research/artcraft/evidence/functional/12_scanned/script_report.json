@@ -1,0 +1,108 @@
+{
+  "ok": false,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "12_scanned.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/12_scanned/12_scanned.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "lines": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "page": 1,
+          "paragraphs": []
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 1,
+          "images": [
+            {
+              "has_editor_crop": false,
+              "image": 1,
+              "kind": "image",
+              "name": "FormXob.1b3b3a3e5b8c2c4242c056ddad7af9d8",
+              "pixels": [
+                1240,
+                1754
+              ],
+              "rect": [
+                0.0,
+                0.0,
+                595.28,
+                841.89
+              ],
+              "visible_rect": [
+                0.0,
+                0.0,
+                595.28,
+                841.89
+              ]
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1529619,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/12_scanned/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "error": "step 6 (text_edit): line 1 is out of range: page 1 has 0 lines",
+      "status": "error",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "status": "skipped",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[{"tool":"doc_open","args":{"path":"04_two_columns.pdf"}},
+ {"tool":"text_edit","args":{"doc":1,"page":1,"paragraph":1,"text":"EDITED PARAGRAPH. This replacement paragraph is deliberately longer than the original so that the rewrap has to push lines down: The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyph where the author placed it, in the font the author chose. The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyph where the author placed it, in the font the author chose. Extra sentence one. Extra sentence two. Extra sentence three."}},
+ {"tool":"doc_save","args":{"doc":1,"path":"04_para_edited.pdf"}},
+ {"tool":"doc_open","args":{"path":"03_embedded_fonts.pdf"}},
+ {"tool":"text_edit","args":{"doc":2,"page":1,"line":1,"text":"Edited embedded line: ŒÆ ß ğ ż Ω 漢字"}},
+ {"tool":"doc_save","args":{"doc":2,"path":"03_edit_newglyphs.pdf"}},
+ {"tool":"doc_open","args":{"path":"02_multiple_fonts.pdf"}},
+ {"tool":"text_edit","args":{"doc":3,"page":1,"line":3,"text":"Times line edited in place"}},
+ {"tool":"doc_save","args":{"doc":3,"path":"02_edit_times.pdf"}},
+ {"tool":"doc_open","args":{"path":"02_edit_times.pdf"}},
+ {"tool":"text_lines","args":{"doc":4,"page":1}}
+]

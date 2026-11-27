@@ -1,0 +1,241 @@
+{
+  "01_simple_text.pdf": {
+    "contains": "Three lines, standard Helvetica 12 pt, not embedded",
+    "ground_truth": [
+      "Simple text test page.",
+      "Second line of plain Helvetica 12 pt.",
+      "Third line ends here."
+    ]
+  },
+  "02_multiple_fonts.pdf": {
+    "contains": "Seven standard-14 fonts, sizes 11-16 pt",
+    "ground_truth": [
+      {
+        "text": "Line in Helvetica at 12 pt",
+        "font": "Helvetica",
+        "size": 12
+      },
+      {
+        "text": "Line in Helvetica-Bold at 14 pt",
+        "font": "Helvetica-Bold",
+        "size": 14
+      },
+      {
+        "text": "Line in Times-Roman at 12 pt",
+        "font": "Times-Roman",
+        "size": 12
+      },
+      {
+        "text": "Line in Times-Italic at 12 pt",
+        "font": "Times-Italic",
+        "size": 12
+      },
+      {
+        "text": "Line in Courier at 11 pt",
+        "font": "Courier",
+        "size": 11
+      },
+      {
+        "text": "Line in Courier-BoldOblique at 11 pt",
+        "font": "Courier-BoldOblique",
+        "size": 11
+      },
+      {
+        "text": "Line in Times-BoldItalic at 16 pt",
+        "font": "Times-BoldItalic",
+        "size": 16
+      }
+    ]
+  },
+  "03_embedded_fonts.pdf": {
+    "contains": "Three subset-embedded TrueType fonts with accented characters",
+    "ground_truth": [
+      {
+        "text": "Embedded DejaVu Sans: café, naïve, Œuvre, €",
+        "font": "DejaVuSans",
+        "size": 13
+      },
+      {
+        "text": "Embedded DejaVu Serif Bold heading",
+        "font": "DejaVuSerif-Bold",
+        "size": 15
+      },
+      {
+        "text": "Embedded Liberation Sans Narrow Italic",
+        "font": "LiberationSansNarrow-Italic",
+        "size": 12
+      }
+    ]
+  },
+  "04_two_columns.pdf": {
+    "contains": "Two-column flowing body text, 14 paragraphs, reading order column 1 then 2",
+    "ground_truth": [
+      "Paragraph 1.",
+      "Paragraph 2.",
+      "Paragraph 3.",
+      "Paragraph 4.",
+      "Paragraph 5.",
+      "Paragraph 6.",
+      "Paragraph 7.",
+      "Paragraph 8.",
+      "Paragraph 9.",
+      "Paragraph 10.",
+      "Paragraph 11.",
+      "Paragraph 12.",
+      "Paragraph 13.",
+      "Paragraph 14."
+    ]
+  },
+  "05_ruled_table.pdf": {
+    "contains": "Ruled 5x5 table with grid and header shading",
+    "ground_truth": {
+      "rows": [
+        [
+          "Region",
+          "Q1",
+          "Q2",
+          "Q3",
+          "Total"
+        ],
+        [
+          "North",
+          "1,200",
+          "1,350",
+          "1,410",
+          "3,960"
+        ],
+        [
+          "South",
+          "980",
+          "1,020",
+          "1,110",
+          "3,110"
+        ],
+        [
+          "East",
+          "1,500",
+          "1,480",
+          "1,620",
+          "4,600"
+        ],
+        [
+          "West",
+          "870",
+          "910",
+          "1,005",
+          "2,785"
+        ]
+      ]
+    }
+  },
+  "06_borderless_table.pdf": {
+    "contains": "Borderless 5x5 table",
+    "ground_truth": {
+      "rows": [
+        [
+          "Region",
+          "Q1",
+          "Q2",
+          "Q3",
+          "Total"
+        ],
+        [
+          "North",
+          "1,200",
+          "1,350",
+          "1,410",
+          "3,960"
+        ],
+        [
+          "South",
+          "980",
+          "1,020",
+          "1,110",
+          "3,110"
+        ],
+        [
+          "East",
+          "1,500",
+          "1,480",
+          "1,620",
+          "4,600"
+        ],
+        [
+          "West",
+          "870",
+          "910",
+          "1,005",
+          "2,785"
+        ]
+      ]
+    }
+  },
+  "07_images.pdf": {
+    "contains": "One PNG and one JPEG image with a caption line",
+    "ground_truth": [
+      "Two raster images: PNG (lossless) and JPEG."
+    ]
+  },
+  "08_vector_graphics.pdf": {
+    "contains": "Filled rectangle, circle, cubic bezier, filled polygon, dashed rule",
+    "ground_truth": []
+  },
+  "09_transparency.pdf": {
+    "contains": "Opaque text overlapped by 50% and 35% alpha fills",
+    "ground_truth": [
+      "Text under transparent shapes"
+    ]
+  },
+  "10_rotated_text.pdf": {
+    "contains": "Text at 0, 90, 45, -30 and 180 degrees",
+    "ground_truth": [
+      "Upright reference line",
+      "Rotated 90 degrees",
+      "Rotated 45 degrees",
+      "Rotated -30 degrees",
+      "Rotated 180 degrees"
+    ]
+  },
+  "11_headers_footers.pdf": {
+    "contains": "Three pages, repeated header pair and centred page-number footer",
+    "ground_truth": {
+      "header": "ACME Corp. Annual Report 2026",
+      "footer": "Page N of 3"
+    }
+  },
+  "12_scanned.pdf": {
+    "contains": "Image-only page (150 dpi greyscale, 0.8 degree skew, noise, blur); no text layer",
+    "ground_truth": [
+      "SCANNED MEMORANDUM",
+      "To: All staff",
+      "Subject: Office relocation",
+      "The office moves to Building C on 12 March.",
+      "Please pack your desk by Friday."
+    ]
+  },
+  "13_hybrid.pdf": {
+    "contains": "Page 1 digital text; page 2 scanned image with invisible (mode 3) text layer",
+    "ground_truth": {
+      "page1": "Hybrid document: this first page is born-digital text.",
+      "page2": [
+        "SCANNED MEMORANDUM",
+        "To: All staff",
+        "Subject: Office relocation",
+        "The office moves to Building C on 12 March.",
+        "Please pack your desk by Friday."
+      ]
+    }
+  },
+  "14_large_300_pages.pdf": {
+    "contains": "300 pages, about 46 text lines each",
+    "ground_truth": {
+      "pages": 300
+    }
+  },
+  "15_password_protected.pdf": {
+    "contains": "Copy of 02 encrypted with AES-256 (R6); user password 'secret'",
+    "ground_truth": {
+      "password": "secret"
+    }
+  }
+}

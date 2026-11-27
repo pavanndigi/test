@@ -1,0 +1,321 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "03_embedded_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/03_embedded_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Inter-Regular",
+            "text": "Edited embedded line: Œ Æ ß ğ ż Ω — glyphs absent from subset"
+          },
+          "name": "03_embedded_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/03_embedded_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 132982,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "03_edit_newglyphs.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/03_edit_newglyphs.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/03_edit_newglyphs.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "doc_save"
+    },
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 2,
+          "editable": true,
+          "encrypted": false,
+          "name": "02_multiple_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/02_multiple_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 2,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Times-Roman",
+            "text": "Times line edited in place"
+          },
+          "name": "02_multiple_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/02_multiple_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1251,
+          "document": {
+            "dirty": false,
+            "doc": 2,
+            "editable": true,
+            "encrypted": false,
+            "name": "02_edit_times.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/02_edit_times.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/02_edit_times.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "doc_save"
+    },
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 3,
+          "editable": true,
+          "encrypted": false,
+          "name": "02_edit_times.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/02_edit_times.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 7,
+          "lines": [
+            {
+              "font": "Helvetica",
+              "line": 1,
+              "rect": [
+                72.0,
+                61.2,
+                203.4,
+                75.0
+              ],
+              "size": 12.0,
+              "text": "Line in Helvetica at 12 pt"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 2,
+              "rect": [
+                72.0,
+                83.4,
+                271.16,
+                99.5
+              ],
+              "size": 14.0,
+              "text": "Line in Helvetica-Bold at 14 pt"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 3,
+              "rect": [
+                72.0,
+                109.2,
+                195.98,
+                123.0
+              ],
+              "size": 12.0,
+              "text": "Times line edited in place"
+            },
+            {
+              "font": "Times-Italic",
+              "line": 4,
+              "rect": [
+                72.0,
+                133.2,
+                206.34,
+                147.0
+              ],
+              "size": 12.0,
+              "text": "Line in Times-Italic at 12 pt"
+            },
+            {
+              "font": "Courier",
+              "line": 5,
+              "rect": [
+                72.0,
+                158.1,
+                230.4,
+                170.75
+              ],
+              "size": 11.0,
+              "text": "Line in Courier at 11 pt"
+            },
+            {
+              "font": "Courier-BoldOblique",
+              "line": 6,
+              "rect": [
+                72.0,
+                182.1,
+                309.6,
+                194.75
+              ],
+              "size": 11.0,
+              "text": "Line in Courier-BoldOblique at 11 pt"
+            },
+            {
+              "font": "Times-BoldItalic",
+              "line": 7,
+              "rect": [
+                72.0,
+                201.6,
+                287.58,
+                220.0
+              ],
+              "size": 16.0,
+              "text": "Line in Times-BoldItalic at 16 pt"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 8,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 4,
+          "editable": true,
+          "encrypted": false,
+          "name": "03_edit_newglyphs.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/03_edit_newglyphs.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 9,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 3,
+          "lines": [
+            {
+              "font": "Inter-Regular",
+              "line": 1,
+              "rect": [
+                72.0,
+                70.09,
+                473.99,
+                82.81
+              ],
+              "size": 13.0,
+              "text": "Edited embedded line: Œ Æ ß ğ ż Ω — glyphs absent from subset"
+            },
+            {
+              "font": "AAAAAA+DejaVuSerif-Bold",
+              "line": 2,
+              "rect": [
+                72.0,
+                96.6,
+                388.52,
+                111.6
+              ],
+              "size": 15.0,
+              "text": "Embedded DejaVu Serif Bold heading"
+            },
+            {
+              "font": "AAAAAA+LiberationSansNarrow-Italic",
+              "line": 3,
+              "rect": [
+                72.0,
+                127.26,
+                248.13,
+                138.53
+              ],
+              "size": 12.0,
+              "text": "Embedded Liberation Sans Narrow Italic"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 10,
+      "tool": "text_lines"
+    }
+  ]
+}

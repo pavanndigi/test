@@ -1,0 +1,9 @@
+[{"tool":"ocr_status","args":{}},
+ {"tool":"doc_open","args":{"path":"12_scanned.pdf"}},
+ {"tool":"ocr_words","args":{"doc":1,"engine":"tesseract","language":"en","deskew":true}},
+ {"tool":"ocr_recognize","args":{"doc":1,"engine":"tesseract","language":"en","deskew":true}},
+ {"tool":"doc_save","args":{"doc":1,"path":"12_searchable.pdf"}},
+ {"tool":"doc_export_office","args":{"doc":1,"path":"12_searchable.docx"}},
+ {"tool":"doc_open","args":{"path":"12_scanned.pdf"}},
+ {"tool":"ocr_recognize","args":{"doc":2,"engine":"tesseract","language":"en","output_mode":"editable","out":"12_editable.pdf"}}
+]

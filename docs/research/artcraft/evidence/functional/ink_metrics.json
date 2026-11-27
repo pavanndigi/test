@@ -1,0 +1,209 @@
+{
+ "01_simple_text": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9956,
+   "ink_ratio": 1.012
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.8293,
+   "ink_ratio": 1.117
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0386,
+   "ink_ratio": 0.978
+  }
+ },
+ "02_multiple_fonts": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9909,
+   "ink_ratio": 1.031
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9404,
+   "ink_ratio": 1.038
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0442,
+   "ink_ratio": 1.182
+  }
+ },
+ "03_embedded_fonts": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9966,
+   "ink_ratio": 1.013
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.8584,
+   "ink_ratio": 0.893
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.3967,
+   "ink_ratio": 0.93
+  }
+ },
+ "04_two_columns": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9965,
+   "ink_ratio": 1.023
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9957,
+   "ink_ratio": 1.006
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.3172,
+   "ink_ratio": 0.84
+  }
+ },
+ "05_ruled_table": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9942,
+   "ink_ratio": 1.081
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9158,
+   "ink_ratio": 1.091
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.1039,
+   "ink_ratio": 0.5
+  }
+ },
+ "06_borderless_table": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9887,
+   "ink_ratio": 0.991
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.8395,
+   "ink_ratio": 1.181
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.1082,
+   "ink_ratio": 0.994
+  }
+ },
+ "07_images": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9804,
+   "ink_ratio": 1.011
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9744,
+   "ink_ratio": 0.981
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0898,
+   "ink_ratio": 1.005
+  }
+ },
+ "08_vector_graphics": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 1.0,
+   "ink_ratio": 1.026
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9695,
+   "ink_ratio": 0.968
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0,
+   "ink_ratio": 0.064
+  }
+ },
+ "09_transparency": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9981,
+   "ink_ratio": 0.995
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.8685,
+   "ink_ratio": 1.014
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0033,
+   "ink_ratio": 0.334
+  }
+ },
+ "10_rotated_text": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9944,
+   "ink_ratio": 0.99
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.8747,
+   "ink_ratio": 1.103
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.3754,
+   "ink_ratio": 0.958
+  }
+ },
+ "11_headers_footers": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9846,
+   "ink_ratio": 1.013
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9968,
+   "ink_ratio": 0.999
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.2638,
+   "ink_ratio": 1.263
+  }
+ },
+ "12_scanned": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9975,
+   "ink_ratio": 1.023
+  },
+  "edited_vs_original": null,
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.1253,
+   "ink_ratio": 0.596
+  }
+ },
+ "13_hybrid": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 1.0,
+   "ink_ratio": 1.014
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.4735,
+   "ink_ratio": 0.612
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0,
+   "ink_ratio": 0.982
+  }
+ },
+ "14_large_300_pages": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9898,
+   "ink_ratio": 1.021
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9901,
+   "ink_ratio": 1.018
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.3767,
+   "ink_ratio": 1.305
+  }
+ },
+ "15_password_protected": {
+  "pdfcraft_render_vs_poppler": {
+   "ink_f1_1px": 0.9909,
+   "ink_ratio": 1.031
+  },
+  "edited_vs_original": {
+   "ink_f1_1px": 0.9404,
+   "ink_ratio": 1.038
+  },
+  "docx_libreoffice_vs_original": {
+   "ink_f1_1px": 0.0442,
+   "ink_ratio": 1.182
+  }
+ }
+}

@@ -1,0 +1,50 @@
+# Git activity (full history, default branch), computed 2026-11-28
+## pdfcraft
+first/last commit: 2026-09-30 2026-11-27 
+commits: 7816
+authors: 430
+commits by month:
+     11 2026-09
+   4536 2026-10
+   3269 2026-11
+top authors:
+    966 mtlcl410
+    963 Dylan M. Taylor
+    934 aiongg
+    525 FredApps
+    408 Eric Kaden
+    312 Brandon Thomas
+    289 Grzegorz Martens
+    212 bflatastic
+## wordcraft
+first/last commit: 2026-10-05 2026-11-27 
+commits: 3730
+authors: 301
+commits by month:
+   2661 2026-10
+   1069 2026-11
+top authors:
+    542 aiongg
+    327 Martin Ball
+    232 vangel76
+    181 Dylan M. Taylor
+    162 Dmitrii Khlapov
+    158 Valentin Klein
+    134 Claude
+    122 FredApps
+## craft-libs
+first/last commit: 2026-10-05 2026-11-28 
+commits: 10324
+authors: 193
+commits by month:
+    978 2026-10
+   9346 2026-11
+top authors:
+   3439 aiongg
+   2251 Dylan M. Taylor
+    751 FredApps
+    704 dotCooCoo
+    607 Martin Ball
+    588 bflatastic
+    237 David Mann
+    236 BFlat

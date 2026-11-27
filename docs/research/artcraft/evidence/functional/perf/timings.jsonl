@@ -1,0 +1,11 @@
+{"label": "pdfcraft-cli text (300 pages)", "rc": 0, "wall_s": [0.937, 1.001, 1.042], "median_s": 1.001, "peak_rss_mb": 28.8}
+{"label": "pdftotext (300 pages)", "rc": 0, "wall_s": [0.221, 0.192, 0.19], "median_s": 0.192, "peak_rss_mb": 17.3}
+{"label": "pdfcraft-cli render p150 150dpi", "rc": 0, "wall_s": [0.088, 0.081, 0.078], "median_s": 0.081, "peak_rss_mb": 55.6}
+{"label": "pdftoppm p150 150dpi", "rc": 0, "wall_s": [0.079, 0.079, 0.08], "median_s": 0.079, "peak_rss_mb": 27.3}
+{"label": "pdfcraft-cli check (render all 300 pages at 36dpi)", "rc": 0, "wall_s": [3.878], "median_s": 3.878, "peak_rss_mb": 25.6}
+{"label": "pdftoppm all 300 pages 36dpi", "rc": 0, "wall_s": [0.993], "median_s": 0.993, "peak_rss_mb": 19.7}
+{"label": "pdfcraft-cli run export_office 300 pages", "rc": 1, "wall_s": [0.008], "median_s": 0.008, "peak_rss_mb": 18.7}
+{"label": "pdfcraft-cli open+export DOCX (300 pages)", "rc": 0, "wall_s": [0.991], "median_s": 0.991, "peak_rss_mb": 41.9}
+{"label": "pdfcraft-cli open+export DOCX (300 pages)", "rc": 0, "wall_s": [1.022], "median_s": 1.022, "peak_rss_mb": 42.0}
+{"label": "pdfcraft-cli open+export DOCX (300 pages)", "rc": 0, "wall_s": [0.834], "median_s": 0.834, "peak_rss_mb": 41.7}
+{"label": "pdfcraft-cli open+edit p200+incremental save in place (300 pages)", "rc": 0, "wall_s": [0.037], "median_s": 0.037, "peak_rss_mb": 33.4}

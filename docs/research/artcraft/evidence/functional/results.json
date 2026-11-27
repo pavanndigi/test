@@ -1,0 +1,2692 @@
+{
+ "01_simple_text.pdf": {
+  "contains": "Three lines, standard Helvetica 12 pt, not embedded",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/01_simple_text.pdf\",\n  \"file_size\": 1438,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 3 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9983,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Simple text test page.\nSecond line of plain Helvetica 12 pt.\nThird line ends here.\n",
+   "stderr": "",
+   "stdout_chars": 83
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"01_simple_text.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/01_simple_text.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 3,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                61.2,\n                187.39,\n                75.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Simple text test page.\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 2,\n              \"rect\": [\n                72.0,\n                79.2,\n                262.76,\n                93.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Second line of plain Helvetica 12 pt.\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 3,\n              \"rect\": [\n                72.0,\n                97.2,\n                181.38,\n                111.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Third line ends here.\"\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"page\": 1,\n          \"paragraphs\": [\n            {\n              \"editor_text\": \"Simple text test page.\\nSecond line of plain Helvetica 12 pt.\\nThird line ends here.\",\n              \"font\": \"Helvetica\",\n              \"lines\": [\n                1,\n                2,\n                3\n              ],\n              \"para",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 3,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5029,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.0,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/01_simple_text/edited.pdf\",\n  \"file_size\": 1057,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9959,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.667,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 1,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    24
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 15,
+   "docx_words": 15,
+   "libreoffice_render_ssim_vs_original": 0.9821,
+   "libreoffice_pages": "1"
+  }
+ },
+ "02_multiple_fonts.pdf": {
+  "contains": "Seven standard-14 fonts, sizes 11-16 pt",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/02_multiple_fonts/02_multiple_fonts.pdf\",\n  \"file_size\": 2381,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 6 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9909,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Line in Helvetica at 12 pt\nLine in Helvetica-Bold at 14 pt\nLine in Times-Roman at 12 pt\nLine in Times-Italic at 12 pt\nLine in Courier at 11 pt\nLine in Courier-BoldOblique at 11 pt\nLine in Times-BoldItalic at 16 pt\n",
+   "stderr": "",
+   "stdout_chars": 214
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"02_multiple_fonts.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/02_multiple_fonts/02_multiple_fonts.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 7,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                61.2,\n                203.4,\n                75.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Line in Helvetica at 12 pt\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 2,\n              \"rect\": [\n                72.0,\n                83.4,\n                271.16,\n                99.5\n              ],\n              \"size\": 14.0,\n              \"text\": \"Line in Helvetica-Bold at 14 pt\"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 3,\n              \"rect\": [\n                72.0,\n                109.2,\n                217.0,\n                123.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Line in Times-Roman at 12 pt\"\n            },\n            {\n              \"font\": \"Times-Italic\",\n              \"line\": 4,\n              \"rect\": [\n                72.0,\n                133.2,\n                206.34,\n                147.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Line in Times-Italic at 12 pt\"\n            },\n            {\n              \"font\": \"Courier\",\n              \"line\": 5,\n              \"rect\": [\n                72.0,\n                158.1,\n                230.4,\n                170.",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 7,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 7,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5110,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/02_multiple_fonts/edited.pdf\",\n  \"file_size\": 1261,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9959,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.857,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 7,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 3,
+   "italic_runs": 3,
+   "font_sizes_half_pt": [
+    22,
+    24,
+    28,
+    32
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 42,
+   "docx_words": 42,
+   "libreoffice_render_ssim_vs_original": 0.9481,
+   "libreoffice_pages": "1"
+  }
+ },
+ "03_embedded_fonts.pdf": {
+  "contains": "Three subset-embedded TrueType fonts with accented characters",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/03_embedded_fonts.pdf\",\n  \"file_size\": 65839,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 5 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9941,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Embedded DejaVu Sans: caf\u00e9, na\u00efve, \u0152uvre, \u20ac\nEmbedded DejaVu Serif Bold heading\nEmbedded Liberation Sans Narrow Italic\n",
+   "stderr": "",
+   "stdout_chars": 118
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"03_embedded_fonts.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/03_embedded_fonts.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 3,\n          \"lines\": [\n            {\n              \"font\": \"AAAAAA+DejaVuSans\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                70.12,\n                376.05,\n                83.12\n              ],\n              \"size\": 13.0,\n              \"text\": \"Embedded DejaVu Sans: caf\u00e9, na\u00efve, \u0152uvre, \u20ac\"\n            },\n            {\n              \"font\": \"AAAAAA+DejaVuSerif-Bold\",\n              \"line\": 2,\n              \"rect\": [\n                72.0,\n                96.6,\n                388.52,\n                111.6\n              ],\n              \"size\": 15.0,\n              \"text\": \"Embedded DejaVu Serif Bold heading\"\n            },\n            {\n              \"font\": \"AAAAAA+LiberationSansNarrow-Italic\",\n              \"line\": 3,\n              \"rect\": [\n                72.0,\n                127.26,\n                248.13,\n                138.53\n              ],\n              \"size\": 12.0,\n              \"text\": \"Embedded Liberation Sans Narrow Italic\"\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 3,\n          \"page\": 1,\n          \"paragraphs\": [\n            {\n              \"editor_text\": \"Embedded DejaVu Sans: caf\u00e9, na\u00efve, \u0152uvre, \u20ac\",\n              \"font\": \"AAAAAA+DejaVuSans\",\n              \"lines\": [\n                1\n          ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 3,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 3,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5103,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/03_embedded_fonts/edited.pdf\",\n  \"file_size\": 61513,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9925,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.667,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 3,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 1,
+   "italic_runs": 1,
+   "font_sizes_half_pt": [
+    24,
+    26,
+    30
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 17,
+   "docx_words": 17,
+   "libreoffice_render_ssim_vs_original": 0.9731,
+   "libreoffice_pages": "1"
+  }
+ },
+ "04_two_columns.pdf": {
+  "contains": "Two-column flowing body text, 14 paragraphs, reading order column 1 then 2",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"(anonymous)\",\n  \"bookmarks\": 0,\n  \"creator\": \"(unspecified)\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/04_two_columns/04_two_columns.pdf\",\n  \"file_size\": 2724,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\"\n  ],\n  \"pages\": 2,\n  \"pdf_pages\": 2,\n  \"pdf_version\": \"1.4\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"(anonymous)\",\n  \"transitions\": 2,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.04,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 20 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.8791,
+  "text": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "Paragraph 1. The quick brown fox jumps\nover the lazy dog. Reconstruction must keep\nevery glyph where the author placed it, in the\nfont the author chose. The quick brown fox\njumps over the lazy dog. Reconstruction must\nkeep every glyph where the author placed it,\nin the font the author chose. The quick brown\nfox jumps over the lazy dog. Reconstruction\nmust keep every glyph where the author\nplaced it, in the font the author chose.\nParagraph 2. The quick brown fox jumps\nover the lazy dog. Reconstruction must keep\nevery glyph where the author placed it, in the\nfont the author chose. The quick brown fox\njumps over the lazy dog. Reconstruction must\nkeep every glyph where the author placed it,\nin the font the author chose. The quick brown\nfox jumps over the lazy dog. Reconstruction\nmust keep every glyph where the author\nplaced it, in the font the author chose.\nParagraph 3. The quick brown fox jumps\nover the lazy dog. Reconstruction must keep\nevery glyph where the author placed it, in the\nfont the author chose. The quick brown fox\njumps over the lazy dog. Reconstruction must\nkeep every glyph where the author placed it,\nin the font the author chose. The quick brown\nfox jumps over the lazy dog. Reconstruction\nmust keep every glyph where the author\nplaced it, in the font the author chose.\nParagraph 4. The quick brown fox jumps\nover the lazy dog. Reconstruction must keep\nevery glyph where the author placed it, in the\nfont the author chose. The quick brown fox\njumps over the lazy dog. Reconstruction must\nkeep every glyph where the author placed it,\nin the font the author chose. The quick brown\nfox jumps over the lazy dog. Reconstruction\nmust keep every glyph where the author\nplaced it, in the font the author chose.\nParagraph 5. The quick brown fox jumps\nover the lazy dog. Reconstruction must keep\nevery glyph where the author placed it, in the\nfont the author chose. The quick brown fox\njumps over the lazy dog. Reconstruction must\nkeep every glyph where the author placed it,\nin th",
+   "stderr": "",
+   "stdout_chars": 6069
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.04,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"04_two_columns.pdf\",\n          \"pages\": 2,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/04_two_columns/04_two_columns.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 119,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 1,\n              \"rect\": [\n                78.0,\n                79.0,\n                138.58,\n                90.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Paragraph 1.\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 2,\n              \"rect\": [\n                138.58,\n                79.0,\n                260.29,\n                90.5\n              ],\n              \"size\": 10.0,\n              \"text\": \" The quick brown fox jumps\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 3,\n              \"rect\": [\n                78.0,\n                91.0,\n                275.31,\n                102.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"over the lazy dog. Reconstruction must keep\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 4,\n              \"rect\": [\n                78.0,\n                103.0,\n                276.99,\n                114.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"every glyph where the author placed it, in the\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 5,\n              \"rect\": [\n                78.0,\n                115.0,\n                266.99,\n             ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 119,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 10,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5301,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"(anonymous)\",\n  \"bookmarks\": 0,\n  \"creator\": \"(unspecified)\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/04_two_columns/edited.pdf\",\n  \"file_size\": 1927,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\"\n  ],\n  \"pages\": 2,\n  \"pdf_pages\": 2,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"(anonymous)\",\n  \"transitions\": 2,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9951,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.929,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 28,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 2,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 14,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    20
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 1078,
+   "docx_words": 1078,
+   "libreoffice_render_ssim_vs_original": 0.451,
+   "libreoffice_pages": "3"
+  }
+ },
+ "05_ruled_table.pdf": {
+  "contains": "Ruled 5x5 table with grid and header shading",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"(anonymous)\",\n  \"bookmarks\": 0,\n  \"creator\": \"(unspecified)\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/05_ruled_table.pdf\",\n  \"file_size\": 1976,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.4\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"(anonymous)\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 5 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9862,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Quarterly figures\nRegion\nNorth\nSouth\nEast\nWest\nQ1\n1,200\n980\n1,500\n870\nQ2\n1,350\n1,020\n1,480\n910\nQ3\n1,410\n1,110\n1,620\n1,005\nTotal\n3,960\n3,110\n4,600\n2,785\n",
+   "stderr": "",
+   "stdout_chars": 152
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"05_ruled_table.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/05_ruled_table.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 26,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 1,\n              \"rect\": [\n                78.0,\n                79.4,\n                190.81,\n                95.5\n              ],\n              \"size\": 14.0,\n              \"text\": \"Quarterly figures\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 2,\n              \"rect\": [\n                113.64,\n                114.0,\n                147.53,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Region\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 3,\n              \"rect\": [\n                248.3,\n                114.0,\n                261.64,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Q1\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 4,\n              \"rect\": [\n                318.3,\n                114.0,\n                331.64,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Q2\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 5,\n              \"rect\": [\n                388.3,\n                114.0,\n                401.64,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\":",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 26,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 26,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5438,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"(anonymous)\",\n  \"bookmarks\": 0,\n  \"creator\": \"(unspecified)\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/05_ruled_table/edited.pdf\",\n  \"file_size\": 1378,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"(anonymous)\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9947,
+  "edit_text_present": true,
+  "truth_found_after_edit": 1.0,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 32,
+   "tables": 1,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 6,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    20,
+    28
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 27,
+   "docx_words": 27,
+   "libreoffice_render_ssim_vs_original": 0.9415,
+   "libreoffice_pages": "1"
+  }
+ },
+ "06_borderless_table.pdf": {
+  "contains": "Borderless 5x5 table",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"(anonymous)\",\n  \"bookmarks\": 0,\n  \"creator\": \"(unspecified)\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/06_borderless_table/06_borderless_table.pdf\",\n  \"file_size\": 1843,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.4\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"(anonymous)\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 3 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9922,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Quarterly figures\nRegion\nNorth\nSouth\nEast\nWest\nQ1\n1,200\n980\n1,500\n870\nQ2\n1,350\n1,020\n1,480\n910\nQ3\n1,410\n1,110\n1,620\n1,005\nTotal\n3,960\n3,110\n4,600\n2,785\n",
+   "stderr": "",
+   "stdout_chars": 152
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"06_borderless_table.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/06_borderless_table/06_borderless_table.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 26,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 1,\n              \"rect\": [\n                78.0,\n                79.4,\n                190.81,\n                95.5\n              ],\n              \"size\": 14.0,\n              \"text\": \"Quarterly figures\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 2,\n              \"rect\": [\n                113.64,\n                114.0,\n                147.53,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Region\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 3,\n              \"rect\": [\n                248.3,\n                114.0,\n                261.64,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Q1\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 4,\n              \"rect\": [\n                318.3,\n                114.0,\n                331.64,\n                125.5\n              ],\n              \"size\": 10.0,\n              \"text\": \"Q2\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 5,\n              \"rect\": [\n                388.3,\n                114.0,\n                401.64,\n                125.5\n              ],\n              \"size\": 10.0,\n      ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 26,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 26,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5438,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"(anonymous)\",\n  \"bookmarks\": 0,\n  \"creator\": \"(unspecified)\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/06_borderless_table/edited.pdf\",\n  \"file_size\": 1276,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"(anonymous)\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9947,
+  "edit_text_present": true,
+  "truth_found_after_edit": 1.0,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 32,
+   "tables": 1,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 6,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    20,
+    28
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 27,
+   "docx_words": 27,
+   "libreoffice_render_ssim_vs_original": 0.9663,
+   "libreoffice_pages": "1"
+  }
+ },
+ "07_images.pdf": {
+  "contains": "One PNG and one JPEG image with a caption line",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/07_images/07_images.pdf\",\n  \"file_size\": 98772,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 15 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.976,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Two raster images: PNG (lossless) and JPEG.\n",
+   "stderr": "",
+   "stdout_chars": 44
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"07_images.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/07_images/07_images.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                49.2,\n                318.73,\n                63.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Two raster images: PNG (lossless) and JPEG.\"\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"page\": 1,\n          \"paragraphs\": [\n            {\n              \"editor_text\": \"Two raster images: PNG (lossless) and JPEG.\",\n              \"font\": \"Helvetica\",\n              \"lines\": [\n                1\n              ],\n              \"paragraph\": 1,\n              \"rect\": [\n                72.0,\n                49.2,\n                318.73,\n                63.0\n              ],\n              \"rows\": [\n                [\n                  1\n                ]\n              ],\n              \"size\": 12.0,\n              \"text\": \"Two raster images: PNG (lossless) and JPEG.\"\n            }\n          ]\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 3,\n      \"tool\": \"text_paragraphs\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 2,\n          \"images\": [\n            {\n              \"has_editor_crop\": false,\n              \"image\": 1,\n              \"kind\": \"image\",\n              \"name\": \"FormXob",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 2,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 144411,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/07_images/edited.pdf\",\n  \"file_size\": 98256,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9938,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.0,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 3,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 2,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    24
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 2,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 7,
+   "docx_words": 7,
+   "libreoffice_render_ssim_vs_original": 0.8326,
+   "libreoffice_pages": "1"
+  }
+ },
+ "08_vector_graphics.pdf": {
+  "contains": "Filled rectangle, circle, cubic bezier, filled polygon, dashed rule",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/08_vector_graphics.pdf\",\n  \"file_size\": 1663,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.4\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 4 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9965,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Vector graphics: rectangle, circle, bezier, polygon, dashed line.\n",
+   "stderr": "",
+   "stdout_chars": 66
+  },
+  "text_truth_found": null,
+  "script": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"08_vector_graphics.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/08_vector_graphics.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                49.2,\n                405.48,\n                63.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Vector graphics: rectangle, circle, bezier, polygon, dashed line.\"\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"page\": 1,\n          \"paragraphs\": [\n            {\n              \"editor_text\": \"Vector graphics: rectangle, circle, bezier, polygon, dashed line.\",\n              \"font\": \"Helvetica\",\n              \"lines\": [\n                1\n              ],\n              \"paragraph\": 1,\n              \"rect\": [\n                72.0,\n                49.2,\n                405.48,\n                63.0\n              ],\n              \"rows\": [\n                [\n                  1\n                ]\n              ],\n              \"size\": 12.0,\n              \"text\": \"Vector graphics: rectangle, circle, bezier, polygon, dashed line.\"\n            }\n          ]\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 3,\n      \"tool\": \"text_paragraphs\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 0,\n          \"images\": [],\n          \"page\": 1\n        }\n      ],\n      \"",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5020,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/edited.pdf\",\n  \"file_size\": 1195,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9918,
+  "edit_text_present": true,
+  "truth_found_after_edit": null,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 1,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    24
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": null,
+   "pdf_words": 8,
+   "docx_words": 8,
+   "libreoffice_render_ssim_vs_original": 0.949,
+   "libreoffice_pages": "1"
+  }
+ },
+ "09_transparency.pdf": {
+  "contains": "Opaque text overlapped by 50% and 35% alpha fills",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/09_transparency/09_transparency.pdf\",\n  \"file_size\": 1750,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.4\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 3 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.996,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Text under transparent shapes\n",
+   "stderr": "",
+   "stdout_chars": 30
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"09_transparency.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/09_transparency/09_transparency.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                124.8,\n                481.22,\n                157.0\n              ],\n              \"size\": 28.0,\n              \"text\": \"Text under transparent shapes\"\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"page\": 1,\n          \"paragraphs\": [\n            {\n              \"editor_text\": \"Text under transparent shapes\",\n              \"font\": \"Helvetica-Bold\",\n              \"lines\": [\n                1\n              ],\n              \"paragraph\": 1,\n              \"rect\": [\n                72.0,\n                124.8,\n                481.22,\n                157.0\n              ],\n              \"rows\": [\n                [\n                  1\n                ]\n              ],\n              \"size\": 28.0,\n              \"text\": \"Text under transparent shapes\"\n            }\n          ]\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 3,\n      \"tool\": \"text_paragraphs\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 0,\n          \"images\": [],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 4,\n      \"tool\": \"page_images\"\n    },\n    {\n      \"result\": [\n        {\n  ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5012,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/09_transparency/edited.pdf\",\n  \"file_size\": 1174,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9817,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.0,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 1,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 1,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    56
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 4,
+   "docx_words": 4,
+   "libreoffice_render_ssim_vs_original": 0.9565,
+   "libreoffice_pages": "1"
+  }
+ },
+ "10_rotated_text.pdf": {
+  "contains": "Text at 0, 90, 45, -30 and 180 degrees",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/10_rotated_text/10_rotated_text.pdf\",\n  \"file_size\": 1496,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 3 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9969,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Upright reference line\nRotated -30 degrees\nRotated 45 degrees\nRotated 90 degrees\nRotated 180 degrees\n",
+   "stderr": "",
+   "stdout_chars": 101
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"10_rotated_text.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/10_rotated_text/10_rotated_text.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 5,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                59.4,\n                205.83,\n                75.5\n              ],\n              \"size\": 14.0,\n              \"text\": \"Upright reference line\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 2,\n              \"rect\": [\n                107.4,\n                418.93,\n                123.5,\n                541.89\n              ],\n              \"size\": 14.0,\n              \"text\": \"Rotated 90 degrees\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 3,\n              \"rect\": [\n                241.09,\n                396.03,\n                339.42,\n                494.36\n              ],\n              \"size\": 14.0,\n              \"text\": \"Rotated 45 degrees\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 4,\n              \"rect\": [\n                328.25,\n                230.98,\n                446.83,\n                308.73\n              ],\n              \"size\": 14.0,\n              \"text\": \"Rotated -30 degrees\"\n            },\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 5,\n              \"rect\": [\n                369.25,\n                638.39,\n                500.0,\n                654.49\n              ],\n              ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 5,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 5,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 6165,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/10_rotated_text/edited.pdf\",\n  \"file_size\": 1104,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9947,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.4,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 11,
+   "tables": 0,
+   "text_boxes": 10,
+   "anchored_drawings": 5,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    28
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 25,
+   "docx_words": 30,
+   "libreoffice_render_ssim_vs_original": 0.977,
+   "libreoffice_pages": "1"
+  }
+ },
+ "11_headers_footers.pdf": {
+  "contains": "Three pages, repeated header pair and centred page-number footer",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/11_headers_footers.pdf\",\n  \"file_size\": 3785,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\",\n    \"3\"\n  ],\n  \"pages\": 3,\n  \"pdf_pages\": 3,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 3,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 11 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.8766,
+  "text": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "ACME Corp. Annual Report 2026\nConfidential\nPage 1 body line 1: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 2: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 3: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 4: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 5: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 6: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 7: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 8: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 9: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 10: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 11: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 12: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 13: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 14: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 15: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 16: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 17: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 18: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 19: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 20: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 21: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 22: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 23: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 24: The quick brown fox jumps over the lazy dog. Reconstruction",
+   "stderr": "",
+   "stdout_chars": 7522
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"11_headers_footers.pdf\",\n          \"pages\": 3,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/11_headers_footers.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 33,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica-Oblique\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                31.9,\n                205.06,\n                42.25\n              ],\n              \"size\": 9.0,\n              \"text\": \"ACME Corp. Annual Report 2026\"\n            },\n            {\n              \"font\": \"Helvetica-Oblique\",\n              \"line\": 2,\n              \"rect\": [\n                475.76,\n                31.9,\n                523.28,\n                42.25\n              ],\n              \"size\": 9.0,\n              \"text\": \"Confidential\"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 3,\n              \"rect\": [\n                72.0,\n                79.2,\n                468.62,\n                93.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Page 1 body line 1: The quick brown fox jumps over the lazy dog. Reconstruction \"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 4,\n              \"rect\": [\n                72.0,\n                97.2,\n                468.62,\n                111.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Page 1 body line 2: The quick brown fox jumps over the lazy dog. Reconstruction \"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 5,\n      ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 33,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 4,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5463,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/edited.pdf\",\n  \"file_size\": 2623,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\",\n    \"3\"\n  ],\n  \"pages\": 3,\n  \"pdf_pages\": 3,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 3,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9975,
+  "edit_text_present": true,
+  "truth_found_after_edit": 1.0,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 14,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 3,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 6,
+   "font_sizes_half_pt": [
+    18,
+    24
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 1380,
+   "docx_words": 1380,
+   "libreoffice_render_ssim_vs_original": 0.5855,
+   "libreoffice_pages": "3"
+  }
+ },
+ "12_scanned.pdf": {
+  "contains": "Image-only page (150 dpi greyscale, 0.8 degree skew, noise, blur); no text layer",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/12_scanned/12_scanned.pdf\",\n  \"file_size\": 1329306,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.08,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 49 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.8719,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "\n",
+   "stderr": "",
+   "stdout_chars": 1
+  },
+  "text_truth_found": 0.0,
+  "script": {
+   "rc": 1,
+   "secs": 0.11,
+   "stdout": "{\n  \"ok\": false,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"12_scanned.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/12_scanned/12_scanned.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 0,\n          \"lines\": [],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 0,\n          \"page\": 1,\n          \"paragraphs\": []\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 3,\n      \"tool\": \"text_paragraphs\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"images\": [\n            {\n              \"has_editor_crop\": false,\n              \"image\": 1,\n              \"kind\": \"image\",\n              \"name\": \"FormXob.1b3b3a3e5b8c2c4242c056ddad7af9d8\",\n              \"pixels\": [\n                1240,\n                1754\n              ],\n              \"rect\": [\n                0.0,\n                0.0,\n                595.28,\n                841.89\n              ],\n              \"visible_rect\": [\n                0.0,\n                0.0,\n                595.28,\n                841.89\n              ]\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 4,\n      \"tool\": \"page_images\"\n    },\n    {\n      \"result\": [\n        {\n          \"bytes\": 1529619,\n          \"format\": \"docx\",\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/12_scanned/export.docx\",\n          \"truncated\": false,\n          \"truncated_pages\": []\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 5,\n      \"tool\": \"doc_export_office\"\n    },\n ",
+   "stderr": "pdfcraft-cli: step 6 (text_edit): line 1 is out of range: page 1 has 0 lines\n"
+  },
+  "script_report": {
+   "ok": false,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 1529619,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "error",
+     "error": "step 6 (text_edit): line 1 is out of range: page 1 has 0 lines",
+     "count": null,
+     "result_keys": [],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "skipped",
+     "error": null,
+     "count": null,
+     "result_keys": [],
+     "export": null
+    }
+   ]
+  },
+  "docx": {
+   "paragraphs": 1,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 1,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 1,
+   "truth_found_in_docx": 0.0,
+   "pdf_words": 0,
+   "docx_words": 0,
+   "libreoffice_render_ssim_vs_original": 0.8061,
+   "libreoffice_pages": "1"
+  }
+ },
+ "13_hybrid.pdf": {
+  "contains": "Page 1 digital text; page 2 scanned image with invisible (mode 3) text layer",
+  "info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/13_hybrid/13_hybrid.pdf\",\n  \"file_size\": 1330010,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\"\n  ],\n  \"pages\": 2,\n  \"pdf_pages\": 2,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 2,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 3 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9997,
+  "text": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "Hybrid document: this first page is born-digital text.\n\f\nSCANNED MEMORANDUM\nTo: All staff\nSubject: Office relocation\nThe office moves to Building C on 12 March.\nPlease pack your desk by Friday.\n",
+   "stderr": "",
+   "stdout_chars": 194
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.12,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"13_hybrid.pdf\",\n          \"pages\": 2,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/13_hybrid/13_hybrid.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                61.2,\n                341.44,\n                75.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Hybrid document: this first page is born-digital text.\"\n            }\n          ],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 2,\n      \"tool\": \"text_lines\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 1,\n          \"page\": 1,\n          \"paragraphs\": [\n            {\n              \"editor_text\": \"Hybrid document: this first page is born-digital text.\",\n              \"font\": \"Helvetica\",\n              \"lines\": [\n                1\n              ],\n              \"paragraph\": 1,\n              \"rect\": [\n                72.0,\n                61.2,\n                341.44,\n                75.0\n              ],\n              \"rows\": [\n                [\n                  1\n                ]\n              ],\n              \"size\": 12.0,\n              \"text\": \"Hybrid document: this first page is born-digital text.\"\n            }\n          ]\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 3,\n      \"tool\": \"text_paragraphs\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 0,\n          \"images\": [],\n          \"page\": 1\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 4,\n      \"tool\": \"page_images\"\n",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 1,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 1530395,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.01,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/13_hybrid/edited.pdf\",\n  \"file_size\": 1329321,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\"\n  ],\n  \"pages\": 2,\n  \"pdf_pages\": 2,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 2,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9934,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.833,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 5,
+   "tables": 0,
+   "text_boxes": 2,
+   "anchored_drawings": 2,
+   "inline_drawings": 0,
+   "sections": 2,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 0,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    24,
+    28
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 1,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 31,
+   "docx_words": 54,
+   "libreoffice_render_ssim_vs_original": 0.9876,
+   "libreoffice_pages": "2"
+  }
+ },
+ "14_large_300_pages.pdf": {
+  "contains": "300 pages, about 46 text lines each",
+  "info": {
+   "rc": 0,
+   "secs": 0.02,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/14_large_300_pages.pdf\",\n  \"file_size\": 269867,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\",\n    \"3\",\n    \"4\",\n    \"5\",\n    \"6\",\n    \"7\",\n    \"8\"\n  ],\n  \"pages\": 300,\n  \"pdf_pages\": 300,\n  \"pdf_version\": \"1.3\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 300,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.06,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 23 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9094,
+  "text": {
+   "rc": 0,
+   "secs": 1.11,
+   "stdout": "Section 1\n1.1 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.2 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.3 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.4 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.5 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.6 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.7 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.8 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.9 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.10 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.11 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.12 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.13 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.14 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.15 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.16 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.17 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.18 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.19 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.20 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.21 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.22 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.23 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\n1.24 The quick brown ",
+   "stderr": "",
+   "stdout_chars": 1184530
+  },
+  "text_truth_found": null,
+  "script": {
+   "rc": 0,
+   "secs": 1.26,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": false,\n          \"name\": \"14_large_300_pages.pdf\",\n          \"pages\": 300,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/14_large_300_pages.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 46,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                59.4,\n                134.24,\n                75.5\n              ],\n              \"size\": 14.0,\n              \"text\": \"Section 1\"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 2,\n              \"rect\": [\n                72.0,\n                90.1,\n                458.78,\n                102.75\n              ],\n              \"size\": 11.0,\n              \"text\": \"1.1 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 3,\n              \"rect\": [\n                72.0,\n                105.1,\n                458.78,\n                117.75\n              ],\n              \"size\": 11.0,\n              \"text\": \"1.2 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 4,\n              \"rect\": [\n                72.0,\n                120.1,\n                458.78,\n                132.75\n              ],\n              \"size\": 11.0,\n              \"text\": \"1.3 The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyp\"\n            },\n            {\n          ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 46,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 2,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 48108,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.03,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": false,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/14_large_300_pages/edited.pdf\",\n  \"file_size\": 195298,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\",\n    \"2\",\n    \"3\",\n    \"4\",\n    \"5\",\n    \"6\",\n    \"7\",\n    \"8\"\n  ],\n  \"pages\": 300,\n  \"pdf_pages\": 300,\n  \"pdf_version\": \"1.5\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 300,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.995,
+  "edit_text_present": true,
+  "truth_found_after_edit": null,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 899,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 300,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 300,
+   "italic_runs": 0,
+   "font_sizes_half_pt": [
+    22,
+    28
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": null,
+   "pdf_words": 203100,
+   "docx_words": 203100,
+   "libreoffice_render_ssim_vs_original": 0.481,
+   "libreoffice_pages": "300"
+  }
+ },
+ "15_password_protected.pdf": {
+  "contains": "Copy of 02 encrypted with AES-256 (R6); user password 'secret'",
+  "info": {
+   "rc": 0,
+   "secs": 0.05,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": true,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/15_password_protected.pdf\",\n  \"file_size\": 3389,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.7\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "info_without_password": {
+   "rc": 1,
+   "secs": 0.01,
+   "stdout": "",
+   "stderr": "pdfcraft-cli: the document is protected by a password\n"
+  },
+  "opened": true,
+  "render": {
+   "rc": 0,
+   "secs": 0.07,
+   "stdout": "",
+   "stderr": "rendered page 1 at 100 dpi: 827\u00d71170 px in 4 ms\n"
+  },
+  "render_ssim_vs_poppler": 0.9909,
+  "text": {
+   "rc": 0,
+   "secs": 0.06,
+   "stdout": "Line in Helvetica at 12 pt\nLine in Helvetica-Bold at 14 pt\nLine in Times-Roman at 12 pt\nLine in Times-Italic at 12 pt\nLine in Courier at 11 pt\nLine in Courier-BoldOblique at 11 pt\nLine in Times-BoldItalic at 16 pt\n",
+   "stderr": "",
+   "stdout_chars": 214
+  },
+  "text_truth_found": 1.0,
+  "script": {
+   "rc": 0,
+   "secs": 0.11,
+   "stdout": "{\n  \"ok\": true,\n  \"steps\": [\n    {\n      \"result\": [\n        {\n          \"dirty\": false,\n          \"doc\": 1,\n          \"editable\": true,\n          \"encrypted\": true,\n          \"name\": \"15_password_protected.pdf\",\n          \"pages\": 1,\n          \"path\": \"/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/15_password_protected.pdf\",\n          \"read_only_reason\": null,\n          \"redo\": null,\n          \"undo\": null\n        }\n      ],\n      \"status\": \"ok\",\n      \"step\": 1,\n      \"tool\": \"doc_open\"\n    },\n    {\n      \"result\": [\n        {\n          \"count\": 7,\n          \"lines\": [\n            {\n              \"font\": \"Helvetica\",\n              \"line\": 1,\n              \"rect\": [\n                72.0,\n                61.2,\n                203.4,\n                75.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Line in Helvetica at 12 pt\"\n            },\n            {\n              \"font\": \"Helvetica-Bold\",\n              \"line\": 2,\n              \"rect\": [\n                72.0,\n                83.4,\n                271.16,\n                99.5\n              ],\n              \"size\": 14.0,\n              \"text\": \"Line in Helvetica-Bold at 14 pt\"\n            },\n            {\n              \"font\": \"Times-Roman\",\n              \"line\": 3,\n              \"rect\": [\n                72.0,\n                109.2,\n                217.0,\n                123.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Line in Times-Roman at 12 pt\"\n            },\n            {\n              \"font\": \"Times-Italic\",\n              \"line\": 4,\n              \"rect\": [\n                72.0,\n                133.2,\n                206.34,\n                147.0\n              ],\n              \"size\": 12.0,\n              \"text\": \"Line in Times-Italic at 12 pt\"\n            },\n            {\n              \"font\": \"Courier\",\n              \"line\": 5,\n              \"rect\": [\n                72.0,\n                158.1,\n                230.4,\n         ",
+   "stderr": ""
+  },
+  "script_report": {
+   "ok": true,
+   "steps": [
+    {
+     "tool": "doc_open",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_lines",
+     "status": "ok",
+     "error": null,
+     "count": 7,
+     "result_keys": [
+      "count",
+      "lines",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "text_paragraphs",
+     "status": "ok",
+     "error": null,
+     "count": 7,
+     "result_keys": [
+      "count",
+      "page",
+      "paragraphs"
+     ],
+     "export": null
+    },
+    {
+     "tool": "page_images",
+     "status": "ok",
+     "error": null,
+     "count": 0,
+     "result_keys": [
+      "count",
+      "images",
+      "page"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_export_office",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "format",
+      "path",
+      "truncated",
+      "truncated_pages"
+     ],
+     "export": {
+      "bytes": 5110,
+      "truncated": false,
+      "truncated_pages": []
+     }
+    },
+    {
+     "tool": "text_edit",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "dirty",
+      "doc",
+      "editable",
+      "encrypted",
+      "line",
+      "name",
+      "pages",
+      "path",
+      "read_only_reason",
+      "redo",
+      "undo"
+     ],
+     "export": null
+    },
+    {
+     "tool": "doc_save",
+     "status": "ok",
+     "error": null,
+     "count": null,
+     "result_keys": [
+      "bytes",
+      "document",
+      "incremental",
+      "path"
+     ],
+     "export": null
+    }
+   ]
+  },
+  "edited_info": {
+   "rc": 0,
+   "secs": 0.05,
+   "stdout": "{\n  \"acroform_fields\": 0,\n  \"annotations\": 0,\n  \"attachments\": 0,\n  \"author\": \"anonymous\",\n  \"bookmarks\": 0,\n  \"creator\": \"anonymous\",\n  \"custom_properties\": 0,\n  \"encrypted\": true,\n  \"fields\": 0,\n  \"file\": \"/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/edited.pdf\",\n  \"file_size\": 2011,\n  \"first_page_pt\": [\n    595.2755737304688,\n    841.8897705078125\n  ],\n  \"javascript\": false,\n  \"layers\": 0,\n  \"links\": 0,\n  \"output_intents\": [],\n  \"page_labels\": [\n    \"1\"\n  ],\n  \"pages\": 1,\n  \"pdf_pages\": 1,\n  \"pdf_version\": \"1.7\",\n  \"pdfa\": null,\n  \"pdfua\": null,\n  \"producer\": \"ReportLab PDF Library - (opensource)\",\n  \"repairs\": [],\n  \"tagged\": false,\n  \"title\": \"untitled\",\n  \"transitions\": 1,\n  \"warnings\": [],\n  \"xfa\": null,\n  \"xfa_layout\": null\n}\n",
+   "stderr": ""
+  },
+  "edited_ssim_vs_original": 0.9959,
+  "edit_text_present": true,
+  "truth_found_after_edit": 0.857,
+  "qpdf_check_edited": 0,
+  "docx": {
+   "paragraphs": 7,
+   "tables": 0,
+   "text_boxes": 0,
+   "anchored_drawings": 0,
+   "inline_drawings": 0,
+   "sections": 1,
+   "fonts_named_in_runs": [],
+   "fonts_in_styles": [
+    "Arial"
+   ],
+   "font_table": [
+    "Arial"
+   ],
+   "bold_runs": 3,
+   "italic_runs": 3,
+   "font_sizes_half_pt": [
+    22,
+    24,
+    28,
+    32
+   ],
+   "headers": 0,
+   "footers": 0,
+   "media_files": 0,
+   "truth_found_in_docx": 1.0,
+   "pdf_words": 42,
+   "docx_words": 42,
+   "libreoffice_render_ssim_vs_original": 0.9481,
+   "libreoffice_pages": "1"
+  }
+ }
+}

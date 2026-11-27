@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "08_vector_graphics.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/08_vector_graphics.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 1,
+          "lines": [
+            {
+              "font": "Helvetica",
+              "line": 1,
+              "rect": [
+                72.0,
+                49.2,
+                405.48,
+                63.0
+              ],
+              "size": 12.0,
+              "text": "Vector graphics: rectangle, circle, bezier, polygon, dashed line."
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 1,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Vector graphics: rectangle, circle, bezier, polygon, dashed line.",
+              "font": "Helvetica",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                49.2,
+                405.48,
+                63.0
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 12.0,
+              "text": "Vector graphics: rectangle, circle, bezier, polygon, dashed line."
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5020,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Helvetica",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "08_vector_graphics.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/08_vector_graphics.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 1195,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/08_vector_graphics/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "ok": false,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "04_two_columns.pdf",
+          "pages": 2,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/04_two_columns.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "04_two_columns.pdf",
+          "pages": 2,
+          "paragraph": {
+            "font": "Helvetica-Bold",
+            "lines": 13,
+            "text": "EDITED PARAGRAPH. This replacement paragraph is deliberately longer than the original so that the rewrap has to push lines down: The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyph where the author placed it, in the font the author chose. The quick brown fox jumps over the lazy dog. Reconstruction must keep every glyph where the author placed it, in the font the author chose. Extra sentence one. Extra sentence two. Extra sentence three."
+          },
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/04_two_columns.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 2218,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "04_para_edited.pdf",
+            "pages": 2,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/04_para_edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/04_para_edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "doc_save"
+    },
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 2,
+          "editable": true,
+          "encrypted": false,
+          "name": "03_embedded_fonts.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/extra/03_embedded_fonts.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "doc_open"
+    },
+    {
+      "error": "step 5 (text_edit): this text needs PdfCraft's Japanese fallback font, which this build doesn't include (official releases do; to build it in, set CRAFT_FONTS_DIR to a craft-fonts checkout)",
+      "status": "error",
+      "step": 5,
+      "tool": "text_edit"
+    },
+    {
+      "status": "skipped",
+      "step": 6,
+      "tool": "doc_save"
+    },
+    {
+      "status": "skipped",
+      "step": 7,
+      "tool": "doc_open"
+    },
+    {
+      "status": "skipped",
+      "step": 8,
+      "tool": "text_edit"
+    },
+    {
+      "status": "skipped",
+      "step": 9,
+      "tool": "doc_save"
+    },
+    {
+      "status": "skipped",
+      "step": 10,
+      "tool": "doc_open"
+    },
+    {
+      "status": "skipped",
+      "step": 11,
+      "tool": "text_lines"
+    }
+  ]
+}

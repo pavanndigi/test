@@ -1,0 +1,354 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": true,
+          "name": "15_password_protected.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/15_password_protected.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 7,
+          "lines": [
+            {
+              "font": "Helvetica",
+              "line": 1,
+              "rect": [
+                72.0,
+                61.2,
+                203.4,
+                75.0
+              ],
+              "size": 12.0,
+              "text": "Line in Helvetica at 12 pt"
+            },
+            {
+              "font": "Helvetica-Bold",
+              "line": 2,
+              "rect": [
+                72.0,
+                83.4,
+                271.16,
+                99.5
+              ],
+              "size": 14.0,
+              "text": "Line in Helvetica-Bold at 14 pt"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 3,
+              "rect": [
+                72.0,
+                109.2,
+                217.0,
+                123.0
+              ],
+              "size": 12.0,
+              "text": "Line in Times-Roman at 12 pt"
+            },
+            {
+              "font": "Times-Italic",
+              "line": 4,
+              "rect": [
+                72.0,
+                133.2,
+                206.34,
+                147.0
+              ],
+              "size": 12.0,
+              "text": "Line in Times-Italic at 12 pt"
+            },
+            {
+              "font": "Courier",
+              "line": 5,
+              "rect": [
+                72.0,
+                158.1,
+                230.4,
+                170.75
+              ],
+              "size": 11.0,
+              "text": "Line in Courier at 11 pt"
+            },
+            {
+              "font": "Courier-BoldOblique",
+              "line": 6,
+              "rect": [
+                72.0,
+                182.1,
+                309.6,
+                194.75
+              ],
+              "size": 11.0,
+              "text": "Line in Courier-BoldOblique at 11 pt"
+            },
+            {
+              "font": "Times-BoldItalic",
+              "line": 7,
+              "rect": [
+                72.0,
+                201.6,
+                287.58,
+                220.0
+              ],
+              "size": 16.0,
+              "text": "Line in Times-BoldItalic at 16 pt"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 7,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "Line in Helvetica at 12 pt",
+              "font": "Helvetica",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                61.2,
+                203.4,
+                75.0
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 12.0,
+              "text": "Line in Helvetica at 12 pt"
+            },
+            {
+              "editor_text": "Line in Helvetica-Bold at 14 pt",
+              "font": "Helvetica-Bold",
+              "lines": [
+                2
+              ],
+              "paragraph": 2,
+              "rect": [
+                72.0,
+                83.4,
+                271.16,
+                99.5
+              ],
+              "rows": [
+                [
+                  2
+                ]
+              ],
+              "size": 14.0,
+              "text": "Line in Helvetica-Bold at 14 pt"
+            },
+            {
+              "editor_text": "Line in Times-Roman at 12 pt",
+              "font": "Times-Roman",
+              "lines": [
+                3
+              ],
+              "paragraph": 3,
+              "rect": [
+                72.0,
+                109.2,
+                217.0,
+                123.0
+              ],
+              "rows": [
+                [
+                  3
+                ]
+              ],
+              "size": 12.0,
+              "text": "Line in Times-Roman at 12 pt"
+            },
+            {
+              "editor_text": "Line in Times-Italic at 12 pt",
+              "font": "Times-Italic",
+              "lines": [
+                4
+              ],
+              "paragraph": 4,
+              "rect": [
+                72.0,
+                133.2,
+                206.34,
+                147.0
+              ],
+              "rows": [
+                [
+                  4
+                ]
+              ],
+              "size": 12.0,
+              "text": "Line in Times-Italic at 12 pt"
+            },
+            {
+              "editor_text": "Line in Courier at 11 pt",
+              "font": "Courier",
+              "lines": [
+                5
+              ],
+              "paragraph": 5,
+              "rect": [
+                72.0,
+                158.1,
+                230.4,
+                170.75
+              ],
+              "rows": [
+                [
+                  5
+                ]
+              ],
+              "size": 11.0,
+              "text": "Line in Courier at 11 pt"
+            },
+            {
+              "editor_text": "Line in Courier-BoldOblique at 11 pt",
+              "font": "Courier-BoldOblique",
+              "lines": [
+                6
+              ],
+              "paragraph": 6,
+              "rect": [
+                72.0,
+                182.1,
+                309.6,
+                194.75
+              ],
+              "rows": [
+                [
+                  6
+                ]
+              ],
+              "size": 11.0,
+              "text": "Line in Courier-BoldOblique at 11 pt"
+            },
+            {
+              "editor_text": "Line in Times-BoldItalic at 16 pt",
+              "font": "Times-BoldItalic",
+              "lines": [
+                7
+              ],
+              "paragraph": 7,
+              "rect": [
+                72.0,
+                201.6,
+                287.58,
+                220.0
+              ],
+              "rows": [
+                [
+                  7
+                ]
+              ],
+              "size": 16.0,
+              "text": "Line in Times-BoldItalic at 16 pt"
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5110,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": true,
+          "line": {
+            "font": "Helvetica",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "15_password_protected.pdf",
+          "pages": 1,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/15_password_protected.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 2011,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": true,
+            "name": "edited.pdf",
+            "pages": 1,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}

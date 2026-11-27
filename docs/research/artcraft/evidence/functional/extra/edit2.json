@@ -1,0 +1,11 @@
+[{"tool":"doc_open","args":{"path":"03_embedded_fonts.pdf"}},
+ {"tool":"text_edit","args":{"doc":1,"page":1,"line":1,"text":"Edited embedded line: Œ Æ ß ğ ż Ω — glyphs absent from subset"}},
+ {"tool":"doc_save","args":{"doc":1,"path":"03_edit_newglyphs.pdf"}},
+ {"tool":"doc_open","args":{"path":"02_multiple_fonts.pdf"}},
+ {"tool":"text_edit","args":{"doc":2,"page":1,"line":3,"text":"Times line edited in place"}},
+ {"tool":"doc_save","args":{"doc":2,"path":"02_edit_times.pdf"}},
+ {"tool":"doc_open","args":{"path":"02_edit_times.pdf"}},
+ {"tool":"text_lines","args":{"doc":3,"page":1}},
+ {"tool":"doc_open","args":{"path":"03_edit_newglyphs.pdf"}},
+ {"tool":"text_lines","args":{"doc":4,"page":1}}
+]

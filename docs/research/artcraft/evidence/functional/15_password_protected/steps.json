@@ -1,0 +1,53 @@
+[
+ {
+  "tool": "doc_open",
+  "args": {
+   "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/15_password_protected.pdf",
+   "password": "secret"
+  }
+ },
+ {
+  "tool": "text_lines",
+  "args": {
+   "doc": 1,
+   "page": 1
+  }
+ },
+ {
+  "tool": "text_paragraphs",
+  "args": {
+   "doc": 1,
+   "page": 1
+  }
+ },
+ {
+  "tool": "page_images",
+  "args": {
+   "doc": 1,
+   "page": 1
+  }
+ },
+ {
+  "tool": "doc_export_office",
+  "args": {
+   "doc": 1,
+   "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/export.docx"
+  }
+ },
+ {
+  "tool": "text_edit",
+  "args": {
+   "doc": 1,
+   "page": 1,
+   "line": 1,
+   "text": "EDITED BY TEST HARNESS"
+  }
+ },
+ {
+  "tool": "doc_save",
+  "args": {
+   "doc": 1,
+   "path": "/home/claude/artcraft-research/reports/evidence/functional/15_password_protected/edited.pdf"
+  }
+ }
+]

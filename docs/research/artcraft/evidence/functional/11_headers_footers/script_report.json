@@ -1,0 +1,719 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "result": [
+        {
+          "dirty": false,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "name": "11_headers_footers.pdf",
+          "pages": 3,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/11_headers_footers.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": null
+        }
+      ],
+      "status": "ok",
+      "step": 1,
+      "tool": "doc_open"
+    },
+    {
+      "result": [
+        {
+          "count": 33,
+          "lines": [
+            {
+              "font": "Helvetica-Oblique",
+              "line": 1,
+              "rect": [
+                72.0,
+                31.9,
+                205.06,
+                42.25
+              ],
+              "size": 9.0,
+              "text": "ACME Corp. Annual Report 2026"
+            },
+            {
+              "font": "Helvetica-Oblique",
+              "line": 2,
+              "rect": [
+                475.76,
+                31.9,
+                523.28,
+                42.25
+              ],
+              "size": 9.0,
+              "text": "Confidential"
+            },
+            {
+              "font": "Times-Roman",
+              "line": 3,
+              "rect": [
+                72.0,
+                79.2,
+                468.62,
+                93.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 1: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 4,
+              "rect": [
+                72.0,
+                97.2,
+                468.62,
+                111.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 2: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 5,
+              "rect": [
+                72.0,
+                115.2,
+                468.62,
+                129.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 3: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 6,
+              "rect": [
+                72.0,
+                133.2,
+                468.62,
+                147.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 4: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 7,
+              "rect": [
+                72.0,
+                151.2,
+                468.62,
+                165.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 5: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 8,
+              "rect": [
+                72.0,
+                169.2,
+                468.62,
+                183.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 6: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 9,
+              "rect": [
+                72.0,
+                187.2,
+                468.62,
+                201.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 7: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 10,
+              "rect": [
+                72.0,
+                205.2,
+                468.62,
+                219.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 8: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 11,
+              "rect": [
+                72.0,
+                223.2,
+                468.62,
+                237.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 9: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 12,
+              "rect": [
+                72.0,
+                241.2,
+                474.62,
+                255.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 10: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 13,
+              "rect": [
+                72.0,
+                259.2,
+                474.62,
+                273.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 11: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 14,
+              "rect": [
+                72.0,
+                277.2,
+                474.62,
+                291.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 12: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 15,
+              "rect": [
+                72.0,
+                295.2,
+                474.62,
+                309.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 13: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 16,
+              "rect": [
+                72.0,
+                313.2,
+                474.62,
+                327.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 14: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 17,
+              "rect": [
+                72.0,
+                331.2,
+                474.62,
+                345.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 15: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 18,
+              "rect": [
+                72.0,
+                349.2,
+                474.62,
+                363.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 16: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 19,
+              "rect": [
+                72.0,
+                367.2,
+                474.62,
+                381.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 17: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 20,
+              "rect": [
+                72.0,
+                385.2,
+                474.62,
+                399.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 18: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 21,
+              "rect": [
+                72.0,
+                403.2,
+                474.62,
+                417.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 19: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 22,
+              "rect": [
+                72.0,
+                421.2,
+                474.62,
+                435.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 20: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 23,
+              "rect": [
+                72.0,
+                439.2,
+                474.62,
+                453.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 21: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 24,
+              "rect": [
+                72.0,
+                457.2,
+                474.62,
+                471.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 22: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 25,
+              "rect": [
+                72.0,
+                475.2,
+                474.62,
+                489.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 23: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 26,
+              "rect": [
+                72.0,
+                493.2,
+                474.62,
+                507.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 24: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 27,
+              "rect": [
+                72.0,
+                511.2,
+                474.62,
+                525.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 25: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 28,
+              "rect": [
+                72.0,
+                529.2,
+                474.62,
+                543.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 26: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 29,
+              "rect": [
+                72.0,
+                547.2,
+                474.62,
+                561.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 27: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 30,
+              "rect": [
+                72.0,
+                565.2,
+                474.62,
+                579.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 28: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 31,
+              "rect": [
+                72.0,
+                583.2,
+                474.62,
+                597.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 29: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Times-Roman",
+              "line": 32,
+              "rect": [
+                72.0,
+                601.2,
+                474.62,
+                615.0
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 30: The quick brown fox jumps over the lazy dog. Reconstruction "
+            },
+            {
+              "font": "Helvetica",
+              "line": 33,
+              "rect": [
+                274.62,
+                803.79,
+                320.66,
+                814.14
+              ],
+              "size": 9.0,
+              "text": "Page 1 of 3"
+            }
+          ],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 2,
+      "tool": "text_lines"
+    },
+    {
+      "result": [
+        {
+          "count": 4,
+          "page": 1,
+          "paragraphs": [
+            {
+              "editor_text": "ACME Corp. Annual Report 2026",
+              "font": "Helvetica-Oblique",
+              "lines": [
+                1
+              ],
+              "paragraph": 1,
+              "rect": [
+                72.0,
+                31.9,
+                205.06,
+                42.25
+              ],
+              "rows": [
+                [
+                  1
+                ]
+              ],
+              "size": 9.0,
+              "text": "ACME Corp. Annual Report 2026"
+            },
+            {
+              "editor_text": "Confidential",
+              "font": "Helvetica-Oblique",
+              "lines": [
+                2
+              ],
+              "paragraph": 2,
+              "rect": [
+                475.76,
+                31.9,
+                523.28,
+                42.25
+              ],
+              "rows": [
+                [
+                  2
+                ]
+              ],
+              "size": 9.0,
+              "text": "Confidential"
+            },
+            {
+              "editor_text": "Page 1 body line 1: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 2: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 3: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 4: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 5: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 6: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 7: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 8: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 9: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 10: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 11: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 12: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 13: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 14: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 15: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 16: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 17: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 18: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 19: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 20: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 21: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 22: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 23: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 24: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 25: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 26: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 27: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 28: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 29: The quick brown fox jumps over the lazy dog. Reconstruction \nPage 1 body line 30: The quick brown fox jumps over the lazy dog. Reconstruction ",
+              "font": "Times-Roman",
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "paragraph": 3,
+              "rect": [
+                72.0,
+                79.2,
+                474.62,
+                615.0
+              ],
+              "rows": [
+                [
+                  3
+                ],
+                [
+                  4
+                ],
+                [
+                  5
+                ],
+                [
+                  6
+                ],
+                [
+                  7
+                ],
+                [
+                  8
+                ],
+                [
+                  9
+                ],
+                [
+                  10
+                ],
+                [
+                  11
+                ],
+                [
+                  12
+                ],
+                [
+                  13
+                ],
+                [
+                  14
+                ],
+                [
+                  15
+                ],
+                [
+                  16
+                ],
+                [
+                  17
+                ],
+                [
+                  18
+                ],
+                [
+                  19
+                ],
+                [
+                  20
+                ],
+                [
+                  21
+                ],
+                [
+                  22
+                ],
+                [
+                  23
+                ],
+                [
+                  24
+                ],
+                [
+                  25
+                ],
+                [
+                  26
+                ],
+                [
+                  27
+                ],
+                [
+                  28
+                ],
+                [
+                  29
+                ],
+                [
+                  30
+                ],
+                [
+                  31
+                ],
+                [
+                  32
+                ]
+              ],
+              "size": 12.0,
+              "text": "Page 1 body line 1: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 2: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 3: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 4: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 5: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 6: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 7: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 8: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 9: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 10: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 11: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 12: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 13: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 14: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 15: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 16: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 17: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 18: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 19: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 20: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 21: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 22: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 23: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 24: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 25: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 26: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 27: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 28: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 29: The quick brown fox jumps over the lazy dog. Reconstruction Page 1 body line 30: The quick brown fox jumps over the lazy dog. Reconstruction"
+            },
+            {
+              "editor_text": "Page 1 of 3",
+              "font": "Helvetica",
+              "lines": [
+                33
+              ],
+              "paragraph": 4,
+              "rect": [
+                274.62,
+                803.79,
+                320.66,
+                814.14
+              ],
+              "rows": [
+                [
+                  33
+                ]
+              ],
+              "size": 9.0,
+              "text": "Page 1 of 3"
+            }
+          ]
+        }
+      ],
+      "status": "ok",
+      "step": 3,
+      "tool": "text_paragraphs"
+    },
+    {
+      "result": [
+        {
+          "count": 0,
+          "images": [],
+          "page": 1
+        }
+      ],
+      "status": "ok",
+      "step": 4,
+      "tool": "page_images"
+    },
+    {
+      "result": [
+        {
+          "bytes": 5463,
+          "format": "docx",
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/export.docx",
+          "truncated": false,
+          "truncated_pages": []
+        }
+      ],
+      "status": "ok",
+      "step": 5,
+      "tool": "doc_export_office"
+    },
+    {
+      "result": [
+        {
+          "dirty": true,
+          "doc": 1,
+          "editable": true,
+          "encrypted": false,
+          "line": {
+            "font": "Helvetica-Oblique",
+            "text": "EDITED BY TEST HARNESS"
+          },
+          "name": "11_headers_footers.pdf",
+          "pages": 3,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/11_headers_footers.pdf",
+          "read_only_reason": null,
+          "redo": null,
+          "undo": "Edit text"
+        }
+      ],
+      "status": "ok",
+      "step": 6,
+      "tool": "text_edit"
+    },
+    {
+      "result": [
+        {
+          "bytes": 2623,
+          "document": {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "edited.pdf",
+            "pages": 3,
+            "path": "/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/edited.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": "Edit text"
+          },
+          "incremental": false,
+          "path": "/home/claude/artcraft-research/reports/evidence/functional/11_headers_footers/edited.pdf"
+        }
+      ],
+      "status": "ok",
+      "step": 7,
+      "tool": "doc_save"
+    }
+  ]
+}
